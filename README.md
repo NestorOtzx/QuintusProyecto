@@ -1,0 +1,2 @@
+# QuintusProyecto
+Proyecto de lógica.
