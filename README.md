@@ -4,6 +4,7 @@
 - Phanor Castillo
 - Jhon David Ríos Aguirre
 - Laura Camila Franco Valencia
+___
 
 ### **Metodología de trabajo**
 
@@ -35,3 +36,4 @@ Localizar la información del proyecto en un repositorio creado en gitHub.
 | Última fase de pruebas | 16/05/2023 | 20/05/2023 |
 | Última reunión | 22/05/2023 | 22/05/2023 |
  >_Durante la última reunión, además de cerrar la documentación con las conclusiones y opiniones de cada integrante; se determinará el posible horario que escogerá el grupo para realizar la sustentación. Y como se dividirá entre los mismos la información correspondiente._
+___
