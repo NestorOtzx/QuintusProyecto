@@ -12,11 +12,11 @@
 **Horarios de reunión:** Día lunes (de cada semana o cada dos semanas en caso de cruzarse con un festivo).
 **Posibles horas de reunión sujetas a disponibilidad:** 08:00 - 09:00 o 15:00 16:00
 **Tipo de reunión:** De tipo presencial (con flexibilidad en casos particulares).
-> Además de las reuniones de vital importancia para concretar por escrito el avance         histórico del proyecto; mantendremos una línea de conversación mediante un grupo de whatsapp que nos permite agilizar el proceso de comunicación de una manera eficiente y certera.
+> _Además de las reuniones de vital importancia para concretar por escrito el avance histórico del proyecto; mantendremos una línea de conversación mediante un grupo de whatsapp que nos permite agilizar el proceso de comunicación de una manera eficiente y certera._
 
 #### Plan de trabajo
 Localizar la información del proyecto en un repositorio creado en gitHub.
-> Refiérase con información a los archivos y la documentación del proyecto
+> _Refiérase con información a los archivos y la documentación del proyecto_
 
 #### Cronograma
 |       Actividad       |    Fecha de inicio    | Fecha de finalización |
@@ -32,4 +32,4 @@ Localizar la información del proyecto en un repositorio creado en gitHub.
 | Correcciones y complementación diseño y desarrollo | 12/05/2023 | 20/05/2023
 | Última fase de pruebas | 16/05/2023 | 20/05/2023 |
 | Última reunión | 22/05/2023 | 22/05/2023 |
- >Durante la última reunión, además de cerrar la documentación con las conclusiones y opiniones de cada integrante; se determinará el posible horario que escogerá el grupo para realizar la sustentación. Y como se dividirá entre los mismos la información correspondiente.
+ >_Durante la última reunión, además de cerrar la documentación con las conclusiones y opiniones de cada integrante; se determinará el posible horario que escogerá el grupo para realizar la sustentación. Y como se dividirá entre los mismos la información correspondiente._
