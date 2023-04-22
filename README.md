@@ -10,7 +10,9 @@
 #### Modelo de trabajo
 
 **Horarios de reunión:** Día lunes (de cada semana o cada dos semanas en caso de cruzarse con un festivo).
-**Posibles horas de reunión sujetas a disponibilidad:** 08:00 - 09:00 o 15:00 16:00
+
+**Posibles horas de reunión sujetas a disponibilidad:** 08:00 - 09:00 o 15:00 16:00.
+
 **Tipo de reunión:** De tipo presencial (con flexibilidad en casos particulares).
 > _Además de las reuniones de vital importancia para concretar por escrito el avance histórico del proyecto; mantendremos una línea de conversación mediante un grupo de whatsapp que nos permite agilizar el proceso de comunicación de una manera eficiente y certera._
 
