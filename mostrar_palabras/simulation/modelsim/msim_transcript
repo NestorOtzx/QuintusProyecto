@@ -1,0 +1,88 @@
+# Reading E:/Programas/quartus2/modelsim_ase/tcl/vsim/pref.tcl 
+# do mostrar_palabras_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {mostrar_palabras.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity mostrar_palabras
+# -- Compiling architecture structure of mostrar_palabras
+# 
+vsim work.mostrar_palabras
+# vsim work.mostrar_palabras 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.mostrar_palabras(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+add wave -position end  sim:/mostrar_palabras/pin_name1
+add wave -position end  sim:/mostrar_palabras/p1
+add wave -position end  sim:/mostrar_palabras/p2
+add wave -position end  sim:/mostrar_palabras/p3
+add wave -position end  sim:/mostrar_palabras/p4
+add wave -position end  sim:/mostrar_palabras/clk
+add wave -position end  sim:/mostrar_palabras/pin_name2
+add wave -position end  sim:/mostrar_palabras/pin_name3
+add wave -position end  sim:/mostrar_palabras/pin_name4
+add wave -position end  sim:/mostrar_palabras/pin_name5
+add wave -position end  sim:/mostrar_palabras/pin_name6
+add wave -position end  sim:/mostrar_palabras/pin_name7
+add wave -position end  sim:/mostrar_palabras/pin_name8
+add wave -position end  sim:/mostrar_palabras/pin_name9
+add wave -position end  sim:/mostrar_palabras/pin_name10
+add wave -position end  sim:/mostrar_palabras/pin_name11
+add wave -position end  sim:/mostrar_palabras/pin_name12
+add wave -position end  sim:/mostrar_palabras/pin_name13
+add wave -position end  sim:/mostrar_palabras/pin_name14
+add wave -position end  sim:/mostrar_palabras/pin_name15
+add wave -position end  sim:/mostrar_palabras/pin_name16
+add wave -position end  sim:/mostrar_palabras/pin_name17
+add wave -position end  sim:/mostrar_palabras/pin_name18
+add wave -position end  sim:/mostrar_palabras/pin_name19
+add wave -position end  sim:/mostrar_palabras/pin_name20
+add wave -position end  sim:/mostrar_palabras/pin_name21
+add wave -position end  sim:/mostrar_palabras/pin_name22
+add wave -position end  sim:/mostrar_palabras/pin_name23
+add wave -position end  sim:/mostrar_palabras/pin_name24
+add wave -position end  sim:/mostrar_palabras/pin_name25
+add wave -position end  sim:/mostrar_palabras/pin_name26
+add wave -position end  sim:/mostrar_palabras/pin_name27
+add wave -position end  sim:/mostrar_palabras/pin_name28
+force -freeze sim:/mostrar_palabras/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mostrar_palabras/p1 0 0
+force -freeze sim:/mostrar_palabras/p2 0 0
+force -freeze sim:/mostrar_palabras/p3 0 0
+force -freeze sim:/mostrar_palabras/p4 0 0
+run
+run
+run
+run
+run
+run

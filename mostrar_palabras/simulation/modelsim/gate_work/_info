@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\projects\quartus2\mostrar_palabras\simulation\modelsim
+Emostrar_palabras
+Z1 w1683850651
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 dE:\projects\quartus2\mostrar_palabras\simulation\modelsim
+Z9 8mostrar_palabras.vho
+Z10 Fmostrar_palabras.vho
+l0
+L34
+VIZK^Bln;_kV8QX5:a2NdP3
+!s100 k[=R_m9P;[X5VFS1bBdiC1
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1683850694.759000
+Z13 !s90 -reportprogress|300|-93|-work|work|mostrar_palabras.vho|
+Z14 !s107 mostrar_palabras.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 mostrar_palabras 0 22 IZK^Bln;_kV8QX5:a2NdP3
+l178
+L108
+Vf`Y[0]R@P`PahF@Q_PDOR0
+!s100 Qj2kFUoj6K7FfIP1fP`m?3
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16
