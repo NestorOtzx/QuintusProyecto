@@ -36,12 +36,12 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone II"
-set_global_assignment -name DEVICE AUTO
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
 set_global_assignment -name TOP_LEVEL_ENTITY mostrar_palabras
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:45:59  MAY 11, 2023"
-set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
@@ -50,6 +50,50 @@ set_global_assignment -name BDF_FILE mostrar_palabras.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name EXTERNAL_FLASH_FALLBACK_ADDRESS 00000000
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE WITH ERAM"
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_K20 -to disp5_1
+set_location_assignment PIN_L18 -to disp5_2
+set_location_assignment PIN_N18 -to disp5_3
+set_location_assignment PIN_M20 -to disp5_4
+set_location_assignment PIN_N19 -to disp5_5
+set_location_assignment PIN_J20 -to disp5_0
+set_location_assignment PIN_N20 -to disp5_6
+set_location_assignment PIN_F18 -to disp4_0
+set_location_assignment PIN_E20 -to disp4_1
+set_location_assignment PIN_E19 -to disp4_2
+set_location_assignment PIN_J18 -to disp4_3
+set_location_assignment PIN_H19 -to disp4_4
+set_location_assignment PIN_F19 -to disp4_5
+set_location_assignment PIN_F20 -to disp4_6
+set_location_assignment PIN_E22 -to disp3_1
+set_location_assignment PIN_E21 -to disp3_2
+set_location_assignment PIN_C19 -to disp3_3
+set_location_assignment PIN_C20 -to disp3_4
+set_location_assignment PIN_D19 -to disp3_5
+set_location_assignment PIN_E17 -to disp3_6
+set_location_assignment PIN_F21 -to disp3_0
+set_location_assignment PIN_B20 -to disp2_0
+set_location_assignment PIN_A20 -to disp2_1
+set_location_assignment PIN_B19 -to disp2_2
+set_location_assignment PIN_A21 -to disp2_3
+set_location_assignment PIN_B21 -to disp2_4
+set_location_assignment PIN_C22 -to disp2_5
+set_location_assignment PIN_B22 -to disp2_6
+set_location_assignment PIN_N5 -to clk
+set_location_assignment PIN_C12 -to p1
+set_location_assignment PIN_D12 -to p2
+set_location_assignment PIN_C11 -to p3
+set_location_assignment PIN_C10 -to p4
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

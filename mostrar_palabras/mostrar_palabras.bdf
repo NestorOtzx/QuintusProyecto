@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 160 456 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "p1" (rect 5 0 17 12)(font "Arial" ))
+	(text "p1" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 176 456 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "p2" (rect 5 0 17 12)(font "Arial" ))
+	(text "p2" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 192 456 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "p3" (rect 5 0 17 12)(font "Arial" ))
+	(text "p3" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 208 456 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "p4" (rect 5 0 17 12)(font "Arial" ))
+	(text "p4" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 64 1136 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name1" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -119,7 +119,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 80 1136 96)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name2" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -135,7 +135,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 96 1136 112)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name3" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -151,7 +151,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 112 1136 128)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name4" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -167,7 +167,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 128 1136 144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name5" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -183,7 +183,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 144 1136 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name6" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -199,7 +199,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 160 1136 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name7" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp5_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -215,7 +215,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 224 1136 240)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name8" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp4_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -231,7 +231,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 240 1136 256)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name9" (rect 90 0 143 12)(font "Arial" ))
+	(text "disp4_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -247,7 +247,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 256 1136 272)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name10" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp4_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -263,7 +263,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 272 1136 288)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name11" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp4_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -279,7 +279,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 288 1136 304)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name12" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp4_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -295,7 +295,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 304 1136 320)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name13" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp4_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -311,7 +311,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 320 1136 336)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name14" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp4_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -327,7 +327,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 384 1136 400)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name15" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -343,7 +343,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 400 1136 416)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name16" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -359,7 +359,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 416 1136 432)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name17" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -375,7 +375,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 432 1136 448)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name18" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -391,7 +391,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 448 1136 464)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name19" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -407,7 +407,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 464 1136 480)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name20" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -423,7 +423,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 480 1136 496)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name21" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp3_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -439,7 +439,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 544 1136 560)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name22" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -455,7 +455,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 560 1136 576)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name23" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -471,7 +471,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 576 1136 592)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name24" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -487,7 +487,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 592 1136 608)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name25" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -503,7 +503,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 608 1136 624)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name26" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -519,7 +519,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 624 1136 640)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name27" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -535,7 +535,7 @@ applicable agreement for further details.
 	(output)
 	(rect 960 640 1136 656)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name28" (rect 90 0 149 12)(font "Arial" ))
+	(text "disp2_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

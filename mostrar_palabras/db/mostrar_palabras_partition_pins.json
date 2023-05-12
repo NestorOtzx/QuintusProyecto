@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "disp5_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_2",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp5_6",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_2",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp4_6",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_2",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp3_6",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_2",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp2_6",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "p4",
+					"strict" : false
+				},
+				{
+					"name" : "p3",
+					"strict" : false
+				},
+				{
+					"name" : "p2",
+					"strict" : false
+				},
+				{
+					"name" : "p1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
