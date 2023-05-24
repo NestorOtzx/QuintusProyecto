@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="asistente">
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|decoder3_8:inst8|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumadorBasico:inst1|sumador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ftj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumadorBasico:inst9|sumador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ftj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q971.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

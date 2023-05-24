@@ -1,0 +1,102 @@
+# Reading E:/Programas/quartus2/modelsim_ase/tcl/vsim/pref.tcl 
+# do asistente_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {asistente.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity asistente
+# -- Compiling architecture structure of asistente
+# 
+vsim work.asistente
+# vsim work.asistente 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.asistente(structure)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+add wave -position end  sim:/asistente/disp5_0
+add wave -position end  sim:/asistente/siguiente
+add wave -position end  sim:/asistente/aceptar
+add wave -position end  sim:/asistente/clk
+add wave -position end  sim:/asistente/disp5_1
+add wave -position end  sim:/asistente/disp5_2
+add wave -position end  sim:/asistente/disp5_3
+add wave -position end  sim:/asistente/disp5_5
+add wave -position end  sim:/asistente/disp5_4
+add wave -position end  sim:/asistente/disp5_6
+add wave -position end  sim:/asistente/disp4_1
+add wave -position end  sim:/asistente/disp4_2
+add wave -position end  sim:/asistente/disp4_3
+add wave -position end  sim:/asistente/disp4_4
+add wave -position end  sim:/asistente/disp4_5
+add wave -position end  sim:/asistente/disp4_6
+add wave -position end  sim:/asistente/disp3_1
+add wave -position end  sim:/asistente/disp3_2
+add wave -position end  sim:/asistente/disp3_3
+add wave -position end  sim:/asistente/disp3_4
+add wave -position end  sim:/asistente/disp3_5
+add wave -position end  sim:/asistente/disp3_6
+add wave -position end  sim:/asistente/disp2_1
+add wave -position end  sim:/asistente/disp2_2
+add wave -position end  sim:/asistente/disp2_3
+add wave -position end  sim:/asistente/disp2_4
+add wave -position end  sim:/asistente/disp2_5
+add wave -position end  sim:/asistente/disp2_6
+add wave -position end  sim:/asistente/disp4_0
+add wave -position end  sim:/asistente/disp3_0
+add wave -position end  sim:/asistente/disp2_0
+force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/asistente/siguiente 0 0
+force -freeze sim:/asistente/aceptar U 0
+force -freeze sim:/asistente/siguiente 0 0
+force -freeze sim:/asistente/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/siguiente 1 0
+run
+run
+run
+run
+run
