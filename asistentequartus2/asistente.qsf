@@ -60,4 +60,13 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name QIP_FILE decoder4_16.qip
 set_global_assignment -name QIP_FILE decoder3_8.qip
 set_global_assignment -name QIP_FILE constante3.qip
+set_global_assignment -name QIP_FILE contador4bits.qip
+set_global_assignment -name BDF_FILE contador.bdf
+set_global_assignment -name QIP_FILE mux4_4.qip
+set_global_assignment -name QIP_FILE constante0.qip
+set_global_assignment -name QIP_FILE sumador.qip
+set_global_assignment -name QIP_FILE adder4bits.qip
+set_global_assignment -name BDF_FILE sumador_constant.bdf
+set_global_assignment -name QIP_FILE constante5.qip
+set_global_assignment -name QIP_FILE constante7.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

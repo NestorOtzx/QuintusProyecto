@@ -1,12 +1,20 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="asistente">
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|decoder3_8:inst8|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_s6f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumadorBasico:inst1|sumador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ftj.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumadorBasico:inst9|sumador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ftj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_8kh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|sumador_constant:inst19|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_8kh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante7:inst17|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux4_4:inst9|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_83e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante3:inst10|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_9e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante5:inst16|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_be6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q971.tdf"/>
 	</PROJECT>

@@ -26,12 +26,12 @@ applicable agreement for further details.
 	(port
 		(pt 112 24)
 		(output)
-		(text "result[1..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "result[3..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
 		(text "3" (rect 87 17 91 30)(font "Arial" (font_size 8)))
 		(line (pt 112 24)(pt 96 24)(line_width 3))
 	)
 	(drawing
-		(text "2" (rect 99 26 201 63)(font "Arial" ))
+		(text "4" (rect 99 26 202 63)(font "Arial" ))
 		(line (pt 106 20)(pt 98 28))
 		(line (pt 16 16)(pt 16 32))
 		(line (pt 16 16)(pt 96 16))
