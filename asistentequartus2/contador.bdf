@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 192 272 360 288)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "enable" (rect 5 0 37 12)(font "Arial" ))
+	(text "enable" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -236,4 +236,8 @@ applicable agreement for further details.
 (connector
 	(pt 384 280)
 	(pt 360 280)
+)
+(connector
+	(pt 560 400)
+	(pt 560 320)
 )

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asistente
-Wed May 24 17:26:36 2023
+Wed May 24 21:48:32 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -16,31 +16,35 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
  10. Registers Removed During Synthesis
- 11. General Register Statistics
- 12. Source assignments for mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
- 13. Source assignments for mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component|altsyncram_q971:auto_generated
- 14. Source assignments for mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
- 15. Source assignments for mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
- 16. Source assignments for mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
- 17. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component
- 18. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component
- 19. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component
- 20. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component
- 21. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component
- 22. Parameter Settings for User Entity Instance: mux4_4:inst9|LPM_MUX:LPM_MUX_component
- 23. Parameter Settings for User Entity Instance: contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component
- 24. Parameter Settings for User Entity Instance: decoder3_8:inst8|lpm_decode:LPM_DECODE_component
- 25. Parameter Settings for User Entity Instance: contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component
- 26. Parameter Settings for User Entity Instance: constante3:inst10|lpm_constant:LPM_CONSTANT_component
- 27. Parameter Settings for User Entity Instance: sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component
- 28. Parameter Settings for User Entity Instance: contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component
- 29. Parameter Settings for User Entity Instance: constante5:inst16|lpm_constant:LPM_CONSTANT_component
- 30. Parameter Settings for User Entity Instance: sumador_constant:inst19|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component
- 31. Parameter Settings for User Entity Instance: contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component
- 32. Parameter Settings for User Entity Instance: constante7:inst17|lpm_constant:LPM_CONSTANT_component
- 33. altsyncram Parameter Settings by Entity Instance
- 34. Elapsed Time Per Partition
- 35. Analysis & Synthesis Messages
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Source assignments for mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
+ 14. Source assignments for mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component|altsyncram_q971:auto_generated
+ 15. Source assignments for mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
+ 16. Source assignments for mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
+ 17. Source assignments for mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated
+ 18. Source assignments for ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated
+ 19. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component
+ 20. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component
+ 21. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component
+ 22. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component
+ 23. Parameter Settings for User Entity Instance: mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component
+ 24. Parameter Settings for User Entity Instance: mux4_4:inst9|LPM_MUX:LPM_MUX_component
+ 25. Parameter Settings for User Entity Instance: contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component
+ 26. Parameter Settings for User Entity Instance: decoder3_8:inst8|lpm_decode:LPM_DECODE_component
+ 27. Parameter Settings for User Entity Instance: contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component
+ 28. Parameter Settings for User Entity Instance: constante3:inst10|lpm_constant:LPM_CONSTANT_component
+ 29. Parameter Settings for User Entity Instance: adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component
+ 30. Parameter Settings for User Entity Instance: contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component
+ 31. Parameter Settings for User Entity Instance: constante5:inst16|lpm_constant:LPM_CONSTANT_component
+ 32. Parameter Settings for User Entity Instance: adder4bits:inst1|lpm_add_sub:LPM_ADD_SUB_component
+ 33. Parameter Settings for User Entity Instance: contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component
+ 34. Parameter Settings for User Entity Instance: constante7:inst17|lpm_constant:LPM_CONSTANT_component
+ 35. Parameter Settings for User Entity Instance: ram:inst4|altsyncram:altsyncram_component
+ 36. Parameter Settings for User Entity Instance: mux3_6:inst3|LPM_MUX:LPM_MUX_component
+ 37. altsyncram Parameter Settings by Entity Instance
+ 38. Elapsed Time Per Partition
+ 39. Analysis & Synthesis Messages
 
 
 
@@ -66,18 +70,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 24 17:26:36 2023           ;
+; Analysis & Synthesis Status        ; Successful - Wed May 24 21:48:32 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; asistente                                       ;
 ; Top-level Entity Name              ; asistente                                       ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 32                                              ;
-;     Total combinational functions  ; 32                                              ;
-;     Dedicated logic registers      ; 15                                              ;
-; Total registers                    ; 15                                              ;
-; Total pins                         ; 31                                              ;
+; Total logic elements               ; 5                                               ;
+;     Total combinational functions  ; 5                                               ;
+;     Dedicated logic registers      ; 4                                               ;
+; Total registers                    ; 4                                               ;
+; Total pins                         ; 38                                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 704                                             ;
+; Total memory bits                  ; 716                                             ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
 ; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
@@ -195,9 +199,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; contador.bdf                     ; yes             ; User Block Diagram/Schematic File      ; E:/projects/quartus/asistente/asistentequartus2/contador.bdf                  ;         ;
 ; mux4_4.vhd                       ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/mux4_4.vhd                    ;         ;
 ; adder4bits.vhd                   ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd                ;         ;
-; sumador_constant.bdf             ; yes             ; User Block Diagram/Schematic File      ; E:/projects/quartus/asistente/asistentequartus2/sumador_constant.bdf          ;         ;
 ; constante5.vhd                   ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/constante5.vhd                ;         ;
 ; constante7.vhd                   ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/constante7.vhd                ;         ;
+; mux3_6.vhd                       ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/mux3_6.vhd                    ;         ;
+; ram_asistente.hex                ; yes             ; User Hexadecimal (Intel-Format) File   ; E:/projects/quartus/asistente/asistentequartus2/ram_asistente.hex             ;         ;
+; ram.vhd                          ; yes             ; User Wizard-Generated File             ; E:/projects/quartus/asistente/asistentequartus2/ram.vhd                       ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                           ; e:/programas/quartus2/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                           ; e:/programas/quartus2/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                           ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
@@ -234,6 +240,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; look_add.inc                     ; yes             ; Megafunction                           ; e:/programas/quartus2/quartus/libraries/megafunctions/look_add.inc            ;         ;
 ; alt_stratix_add_sub.inc          ; yes             ; Megafunction                           ; e:/programas/quartus2/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
 ; db/add_sub_8kh.tdf               ; yes             ; Auto-Generated Megafunction            ; E:/projects/quartus/asistente/asistentequartus2/db/add_sub_8kh.tdf            ;         ;
+; db/altsyncram_lsc1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/projects/quartus/asistente/asistentequartus2/db/altsyncram_lsc1.tdf        ;         ;
+; db/mux_93e.tdf                   ; yes             ; Auto-Generated Megafunction            ; E:/projects/quartus/asistente/asistentequartus2/db/mux_93e.tdf                ;         ;
 +----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------+---------+
 
 
@@ -242,29 +250,29 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 32    ;
+; Estimated Total logic elements              ; 5     ;
 ;                                             ;       ;
-; Total combinational functions               ; 32    ;
+; Total combinational functions               ; 5     ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 15    ;
-;     -- 3 input functions                    ; 2     ;
-;     -- <=2 input functions                  ; 15    ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 5     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 21    ;
-;     -- arithmetic mode                      ; 11    ;
+;     -- normal mode                          ; 2     ;
+;     -- arithmetic mode                      ; 3     ;
 ;                                             ;       ;
-; Total registers                             ; 15    ;
-;     -- Dedicated logic registers            ; 15    ;
+; Total registers                             ; 4     ;
+;     -- Dedicated logic registers            ; 4     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 31    ;
-; Total memory bits                           ; 704   ;
+; I/O pins                                    ; 38    ;
+; Total memory bits                           ; 716   ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clk   ;
-; Maximum fan-out                             ; 44    ;
-; Total fan-out                               ; 370   ;
-; Average fan-out                             ; 3.03  ;
+; Maximum fan-out                             ; 50    ;
+; Total fan-out                               ; 295   ;
+; Average fan-out                             ; 3.04  ;
 +---------------------------------------------+-------+
 
 
@@ -273,20 +281,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |asistente                                      ; 32 (0)            ; 15 (0)       ; 704         ; 0            ; 0       ; 0         ; 31   ; 0            ; |asistente                                                                                                                          ; work         ;
-;    |contador:inst13|                            ; 5 (1)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst13                                                                                                          ; work         ;
-;       |contador4bits:inst|                      ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst13|contador4bits:inst                                                                                       ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|    ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component                                                     ; work         ;
-;             |cntr_o8j:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated                             ; work         ;
-;    |contador:inst18|                            ; 5 (1)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst18                                                                                                          ; work         ;
-;       |contador4bits:inst|                      ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst18|contador4bits:inst                                                                                       ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|    ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component                                                     ; work         ;
-;             |cntr_o8j:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated                             ; work         ;
-;    |contador:inst5|                             ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst5                                                                                                           ; work         ;
-;       |contador4bits:inst|                      ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst5|contador4bits:inst                                                                                        ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|    ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component                                                      ; work         ;
-;             |cntr_o8j:auto_generated|           ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated                              ; work         ;
-;    |contador:inst6|                             ; 5 (1)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst6                                                                                                           ; work         ;
+; |asistente                                      ; 5 (1)             ; 4 (0)        ; 716         ; 0            ; 0       ; 0         ; 38   ; 0            ; |asistente                                                                                                                          ; work         ;
+;    |contador:inst6|                             ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst6                                                                                                           ; work         ;
 ;       |contador4bits:inst|                      ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst6|contador4bits:inst                                                                                        ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|    ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component                                                      ; work         ;
 ;             |cntr_o8j:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated                              ; work         ;
@@ -311,32 +307,25 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |rom_palabras:inst|                    ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst                                                                 ; work         ;
 ;             |altsyncram:altsyncram_component|   ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component                                 ; work         ;
 ;                |altsyncram_q971:auto_generated| ; 0 (0)             ; 0 (0)        ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component|altsyncram_q971:auto_generated  ; work         ;
-;    |mux4_4:inst9|                               ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mux4_4:inst9                                                                                                             ; work         ;
-;       |lpm_mux:LPM_MUX_component|               ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mux4_4:inst9|lpm_mux:LPM_MUX_component                                                                                   ; work         ;
-;          |mux_83e:auto_generated|               ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|mux4_4:inst9|lpm_mux:LPM_MUX_component|mux_83e:auto_generated                                                            ; work         ;
-;    |sumador_constant:inst15|                    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst15                                                                                                  ; work         ;
-;       |adder4bits:inst|                         ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst15|adder4bits:inst                                                                                  ; work         ;
-;          |lpm_add_sub:LPM_ADD_SUB_component|    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component                                                ; work         ;
-;             |add_sub_8kh:auto_generated|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_8kh:auto_generated                     ; work         ;
-;    |sumador_constant:inst19|                    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst19                                                                                                  ; work         ;
-;       |adder4bits:inst|                         ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst19|adder4bits:inst                                                                                  ; work         ;
-;          |lpm_add_sub:LPM_ADD_SUB_component|    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst19|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component                                                ; work         ;
-;             |add_sub_8kh:auto_generated|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|sumador_constant:inst19|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_8kh:auto_generated                     ; work         ;
+;    |ram:inst4|                                  ; 0 (0)             ; 0 (0)        ; 12          ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|ram:inst4                                                                                                                ; work         ;
+;       |altsyncram:altsyncram_component|         ; 0 (0)             ; 0 (0)        ; 12          ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|ram:inst4|altsyncram:altsyncram_component                                                                                ; work         ;
+;          |altsyncram_lsc1:auto_generated|       ; 0 (0)             ; 0 (0)        ; 12          ; 0            ; 0       ; 0         ; 0    ; 0            ; |asistente|ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated                                                 ; work         ;
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                    ;
-+-------------------------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
-; Name                                                                                                                                ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF          ;
-+-------------------------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
-; mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex   ;
-; mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex   ;
-; mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex   ;
-; mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex   ;
-; mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component|altsyncram_q971:auto_generated|ALTSYNCRAM  ; AUTO ; ROM  ; 16           ; 16           ; --           ; --           ; 256  ; palabras.hex ;
-+-------------------------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                ;
++-------------------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+-------------------+
+; Name                                                                                                                                ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF               ;
++-------------------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+-------------------+
+; mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex        ;
+; mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex        ;
+; mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex        ;
+; mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component|altsyncram_f271:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 16           ; 7            ; --           ; --           ; 112  ; letras.hex        ;
+; mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component|altsyncram_q971:auto_generated|ALTSYNCRAM  ; AUTO ; ROM         ; 16           ; 16           ; --           ; --           ; 256  ; palabras.hex      ;
+; ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated|ALTSYNCRAM                                                 ; AUTO ; Single Port ; 16           ; 6            ; --           ; --           ; 96   ; ram_asistente.hex ;
++-------------------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+-------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -349,28 +338,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd    ;
 ; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd    ;
 ; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd    ;
+; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst1                                          ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd    ;
+; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst2                                          ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd    ;
+; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_6:inst3                                              ; E:/projects/quartus/asistente/asistentequartus2/mux3_6.vhd        ;
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |asistente|ram:inst4                                                 ; E:/projects/quartus/asistente/asistentequartus2/ram.vhd           ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst5|contador4bits:inst                         ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst6|contador4bits:inst                         ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd ;
 ; Altera ; LPM_DECODE   ; 13.0    ; N/A          ; N/A          ; |asistente|decoder3_8:inst8                                          ; E:/projects/quartus/asistente/asistentequartus2/decoder3_8.vhd    ;
 ; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux4_4:inst9                                              ; E:/projects/quartus/asistente/asistentequartus2/mux4_4.vhd        ;
 ; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante3:inst10                                         ; E:/projects/quartus/asistente/asistentequartus2/constante3.vhd    ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst13|contador4bits:inst                        ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd ;
-; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|sumador_constant:inst15|adder4bits:inst                   ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd    ;
 ; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante5:inst16                                         ; E:/projects/quartus/asistente/asistentequartus2/constante5.vhd    ;
 ; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante7:inst17                                         ; E:/projects/quartus/asistente/asistentequartus2/constante7.vhd    ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst18|contador4bits:inst                        ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd ;
-; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|sumador_constant:inst19|adder4bits:inst                   ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd    ;
 +--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------+-------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                             ;
-+-----------------------------------------------------------------------------------------------------------+--------------------+
-; Register name                                                                                             ; Reason for Removal ;
-+-----------------------------------------------------------------------------------------------------------+--------------------+
-; contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[3] ; Lost fanout        ;
-; Total Number of Removed Registers = 1                                                                     ;                    ;
-+-----------------------------------------------------------------------------------------------------------+--------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                    ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------+
+; Register name                                                                                                 ; Reason for Removal                    ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------+
+; contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[0..3]  ; Stuck at GND due to stuck port aclear ;
+; contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[0..3] ; Stuck at GND due to stuck port clock  ;
+; contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[0..3] ; Stuck at GND due to stuck port clock  ;
+; Total Number of Removed Registers = 12                                                                        ;                                       ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                                        ;
++-----------------------------------------------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                             ; Reason for Removal       ; Registers Removed due to This Register                                                                      ;
++-----------------------------------------------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------------------------------------------------+
+; contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[2] ; Stuck at GND             ; contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[3], ;
+;                                                                                                           ; due to stuck port aclear ; contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[2], ;
+;                                                                                                           ;                          ; contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[1], ;
+;                                                                                                           ;                          ; contador:inst18|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[0], ;
+;                                                                                                           ;                          ; contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[3], ;
+;                                                                                                           ;                          ; contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[2], ;
+;                                                                                                           ;                          ; contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[1], ;
+;                                                                                                           ;                          ; contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_o8j:auto_generated|pre_hazard[0]  ;
++-----------------------------------------------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -378,10 +387,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 15    ;
+; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 4     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -431,6 +440,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+--------------------+------+-----------------------------------------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                 ;
 +---------------------------------+--------------------+------+-----------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Source assignments for ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated ;
++---------------------------------+--------------------+------+-----------------------------------+
+; Assignment                      ; Value              ; From ; To                                ;
++---------------------------------+--------------------+------+-----------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                 ;
++---------------------------------+--------------------+------+-----------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------+
@@ -843,31 +861,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                            ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 4           ; Signed Integer                                                                  ;
-; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                         ;
-; LPM_DIRECTION          ; ADD         ; Untyped                                                                         ;
-; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                         ;
-; LPM_PIPELINE           ; 0           ; Untyped                                                                         ;
-; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                         ;
-; REGISTERED_AT_END      ; 0           ; Untyped                                                                         ;
-; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                         ;
-; USE_CS_BUFFERS         ; 1           ; Untyped                                                                         ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                         ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                              ;
-; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                         ;
-; USE_WYS                ; OFF         ; Untyped                                                                         ;
-; STYLE                  ; FAST        ; Untyped                                                                         ;
-; CBXI_PARAMETER         ; add_sub_8kh ; Untyped                                                                         ;
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                    ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                  ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+-------------+----------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                     ;
++------------------------+-------------+----------------------------------------------------------+
+; LPM_WIDTH              ; 4           ; Signed Integer                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                  ;
+; LPM_DIRECTION          ; ADD         ; Untyped                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                  ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                  ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                  ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                  ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                       ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                  ;
+; USE_WYS                ; OFF         ; Untyped                                                  ;
+; STYLE                  ; FAST        ; Untyped                                                  ;
+; CBXI_PARAMETER         ; add_sub_8kh ; Untyped                                                  ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                           ;
++------------------------+-------------+----------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -911,31 +929,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: sumador_constant:inst19|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                            ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 4           ; Signed Integer                                                                  ;
-; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                         ;
-; LPM_DIRECTION          ; ADD         ; Untyped                                                                         ;
-; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                         ;
-; LPM_PIPELINE           ; 0           ; Untyped                                                                         ;
-; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                         ;
-; REGISTERED_AT_END      ; 0           ; Untyped                                                                         ;
-; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                         ;
-; USE_CS_BUFFERS         ; 1           ; Untyped                                                                         ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                         ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                              ;
-; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                         ;
-; USE_WYS                ; OFF         ; Untyped                                                                         ;
-; STYLE                  ; FAST        ; Untyped                                                                         ;
-; CBXI_PARAMETER         ; add_sub_8kh ; Untyped                                                                         ;
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                    ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                  ;
-+------------------------+-------------+---------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder4bits:inst1|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+-------------+----------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                     ;
++------------------------+-------------+----------------------------------------------------------+
+; LPM_WIDTH              ; 4           ; Signed Integer                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                  ;
+; LPM_DIRECTION          ; ADD         ; Untyped                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                  ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                  ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                  ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                  ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                       ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                  ;
+; USE_WYS                ; OFF         ; Untyped                                                  ;
+; STYLE                  ; FAST        ; Untyped                                                  ;
+; CBXI_PARAMETER         ; add_sub_8kh ; Untyped                                                  ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                           ;
++------------------------+-------------+----------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -979,12 +997,92 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ram:inst4|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+----------------------------+
+; Parameter Name                     ; Value                ; Type                       ;
++------------------------------------+----------------------+----------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                    ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                 ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY               ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE               ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE             ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                    ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                    ;
+; WIDTH_A                            ; 6                    ; Signed Integer             ;
+; WIDTHAD_A                          ; 4                    ; Signed Integer             ;
+; NUMWORDS_A                         ; 16                   ; Signed Integer             ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                    ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                    ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                    ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                    ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                    ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                    ;
+; WIDTH_B                            ; 1                    ; Untyped                    ;
+; WIDTHAD_B                          ; 1                    ; Untyped                    ;
+; NUMWORDS_B                         ; 1                    ; Untyped                    ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                    ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                    ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                    ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                    ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                    ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                    ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                    ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                    ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                    ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                    ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                    ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                    ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer             ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                    ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                    ;
+; BYTE_SIZE                          ; 8                    ; Untyped                    ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                    ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                    ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                    ;
+; INIT_FILE                          ; ram_asistente.hex    ; Untyped                    ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                    ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                    ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                    ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                    ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                    ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                    ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                    ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                    ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                    ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                    ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                    ;
+; DEVICE_FAMILY                      ; Cyclone II           ; Untyped                    ;
+; CBXI_PARAMETER                     ; altsyncram_lsc1      ; Untyped                    ;
++------------------------------------+----------------------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux3_6:inst3|LPM_MUX:LPM_MUX_component ;
++------------------------+------------+-----------------------------------------------+
+; Parameter Name         ; Value      ; Type                                          ;
++------------------------+------------+-----------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                  ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                ;
+; LPM_WIDTH              ; 6          ; Signed Integer                                ;
+; LPM_SIZE               ; 4          ; Signed Integer                                ;
+; LPM_WIDTHS             ; 2          ; Signed Integer                                ;
+; LPM_PIPELINE           ; 0          ; Signed Integer                                ;
+; CBXI_PARAMETER         ; mux_93e    ; Untyped                                       ;
+; DEVICE_FAMILY          ; Cyclone II ; Untyped                                       ;
++------------------------+------------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                                                                      ;
 +-------------------------------------------+-------------------------------------------------------------------------------------------+
 ; Name                                      ; Value                                                                                     ;
 +-------------------------------------------+-------------------------------------------------------------------------------------------+
-; Number of entity instances                ; 5                                                                                         ;
+; Number of entity instances                ; 6                                                                                         ;
 ; Entity Instance                           ; mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                       ;
 ;     -- WIDTH_A                            ; 7                                                                                         ;
@@ -1040,6 +1138,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                              ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                      ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                 ;
+; Entity Instance                           ; ram:inst4|altsyncram:altsyncram_component                                                 ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                                                               ;
+;     -- WIDTH_A                            ; 6                                                                                         ;
+;     -- NUMWORDS_A                         ; 16                                                                                        ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                                                                    ;
+;     -- WIDTH_B                            ; 1                                                                                         ;
+;     -- NUMWORDS_B                         ; 1                                                                                         ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                                                    ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                              ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                      ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                 ;
 +-------------------------------------------+-------------------------------------------------------------------------------------------+
 
 
@@ -1058,7 +1167,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed May 24 17:26:34 2023
+    Info: Processing started: Wed May 24 21:48:30 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asistente -c asistente
 Warning (125092): Tcl Script File decoder4_16.qip not found
     Info (125063): set_global_assignment -name QIP_FILE decoder4_16.qip
@@ -1099,14 +1208,19 @@ Info (12021): Found 2 design units, including 1 entities, in source file constan
 Info (12021): Found 2 design units, including 1 entities, in source file adder4bits.vhd
     Info (12022): Found design unit 1: adder4bits-SYN
     Info (12023): Found entity 1: adder4bits
-Info (12021): Found 1 design units, including 1 entities, in source file sumador_constant.bdf
-    Info (12023): Found entity 1: sumador_constant
+Warning (12019): Can't analyze file -- file sumador_constant.bdf is missing
 Info (12021): Found 2 design units, including 1 entities, in source file constante5.vhd
     Info (12022): Found design unit 1: constante5-SYN
     Info (12023): Found entity 1: constante5
 Info (12021): Found 2 design units, including 1 entities, in source file constante7.vhd
     Info (12022): Found design unit 1: constante7-SYN
     Info (12023): Found entity 1: constante7
+Info (12021): Found 2 design units, including 1 entities, in source file mux3_6.vhd
+    Info (12022): Found design unit 1: mux3_6-SYN
+    Info (12023): Found entity 1: mux3_6
+Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
+    Info (12022): Found design unit 1: ram-SYN
+    Info (12023): Found entity 1: ram
 Info (12127): Elaborating entity "asistente" for the top level hierarchy
 Warning (275011): Block or symbol "mostrar_palabras" of instance "inst" overlaps another block or symbol
 Info (12128): Elaborating entity "mostrar_palabras" for hierarchy "mostrar_palabras:inst"
@@ -1166,7 +1280,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/mux_
     Info (12023): Found entity 1: mux_83e
 Info (12128): Elaborating entity "mux_83e" for hierarchy "mux4_4:inst9|LPM_MUX:LPM_MUX_component|mux_83e:auto_generated"
 Info (12128): Elaborating entity "contador" for hierarchy "contador:inst6"
-Warning (275009): Pin "set0" not connected
 Info (12128): Elaborating entity "contador4bits" for hierarchy "contador:inst6|contador4bits:inst"
 Info (12128): Elaborating entity "lpm_counter" for hierarchy "contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component"
 Info (12130): Elaborated megafunction instantiation "contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component"
@@ -1197,11 +1310,10 @@ Info (12133): Instantiated megafunction "constante3:inst10|lpm_constant:LPM_CONS
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "4"
-Info (12128): Elaborating entity "sumador_constant" for hierarchy "sumador_constant:inst15"
-Info (12128): Elaborating entity "adder4bits" for hierarchy "sumador_constant:inst15|adder4bits:inst"
-Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component"
-Info (12130): Elaborated megafunction instantiation "sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component"
-Info (12133): Instantiated megafunction "sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter:
+Info (12128): Elaborating entity "adder4bits" for hierarchy "adder4bits:inst2"
+Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12130): Elaborated megafunction instantiation "adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12133): Instantiated megafunction "adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter:
     Info (12134): Parameter "lpm_direction" = "ADD"
     Info (12134): Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO"
     Info (12134): Parameter "lpm_representation" = "UNSIGNED"
@@ -1209,7 +1321,7 @@ Info (12133): Instantiated megafunction "sumador_constant:inst15|adder4bits:inst
     Info (12134): Parameter "lpm_width" = "4"
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8kh.tdf
     Info (12023): Found entity 1: add_sub_8kh
-Info (12128): Elaborating entity "add_sub_8kh" for hierarchy "sumador_constant:inst15|adder4bits:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_8kh:auto_generated"
+Info (12128): Elaborating entity "add_sub_8kh" for hierarchy "adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_8kh:auto_generated"
 Info (12128): Elaborating entity "constante5" for hierarchy "constante5:inst16"
 Info (12128): Elaborating entity "lpm_constant" for hierarchy "constante5:inst16|lpm_constant:LPM_CONSTANT_component"
 Info (12130): Elaborated megafunction instantiation "constante5:inst16|lpm_constant:LPM_CONSTANT_component"
@@ -1226,17 +1338,53 @@ Info (12133): Instantiated megafunction "constante7:inst17|lpm_constant:LPM_CONS
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "4"
-Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (12128): Elaborating entity "ram" for hierarchy "ram:inst4"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ram:inst4|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "ram:inst4|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "ram:inst4|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "ram_asistente.hex"
+    Info (12134): Parameter "intended_device_family" = "Cyclone II"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "16"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "widthad_a" = "4"
+    Info (12134): Parameter "width_a" = "6"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_lsc1.tdf
+    Info (12023): Found entity 1: altsyncram_lsc1
+Info (12128): Elaborating entity "altsyncram_lsc1" for hierarchy "ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated"
+Info (12128): Elaborating entity "mux3_6" for hierarchy "mux3_6:inst3"
+Info (12128): Elaborating entity "LPM_MUX" for hierarchy "mux3_6:inst3|LPM_MUX:LPM_MUX_component"
+Info (12130): Elaborated megafunction instantiation "mux3_6:inst3|LPM_MUX:LPM_MUX_component"
+Info (12133): Instantiated megafunction "mux3_6:inst3|LPM_MUX:LPM_MUX_component" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTH" = "6"
+    Info (12134): Parameter "LPM_SIZE" = "4"
+    Info (12134): Parameter "LPM_WIDTHS" = "2"
+    Info (12134): Parameter "LPM_PIPELINE" = "0"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
+    Info (12134): Parameter "LPM_HINT" = "UNUSED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_93e.tdf
+    Info (12023): Found entity 1: mux_93e
+Info (12128): Elaborating entity "mux_93e" for hierarchy "mux3_6:inst3|LPM_MUX:LPM_MUX_component|mux_93e:auto_generated"
+Info (17036): Removed 3 MSB VCC or GND address nodes from RAM block "ram:inst4|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated|ALTSYNCRAM"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 107 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 32 logic cells
-    Info (21064): Implemented 44 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4660 megabytes
-    Info: Processing ended: Wed May 24 17:26:36 2023
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "aceptar"
+Info (21057): Implemented 93 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 4 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21061): Implemented 5 logic cells
+    Info (21064): Implemented 50 RAM segments
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4661 megabytes
+    Info: Processing ended: Wed May 24 21:48:32 2023
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
