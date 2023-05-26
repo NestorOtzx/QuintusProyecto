@@ -54,6 +54,9 @@ ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_atom_pack(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_components
 ModelSim-Altera Info: # Loading work.asistente(structure)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
@@ -61,9 +64,6 @@ ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_block(block_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_register(reg_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
@@ -80,6 +80,9 @@ ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_atom_pack(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_components
 ModelSim-Altera Info: # Loading work.asistente(structure)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
@@ -87,9 +90,6 @@ ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_block(block_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_register(reg_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
@@ -128,21 +128,8 @@ ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_0
 ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_0
 ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_0
 ModelSim-Altera Info: force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/write
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/mem0
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar U 0
 ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
 ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: force -freeze sim:/asistente/write 0 0
-ModelSim-Altera Info: force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/write 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
@@ -150,6 +137,50 @@ ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
@@ -158,12 +189,6 @@ ModelSim-Altera Info: run
 ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run

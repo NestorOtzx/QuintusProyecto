@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Wed May 24 21:48:32 2023
+Analysis & Synthesis Status : Successful - Thu May 25 21:56:48 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : asistente
 Top-level Entity Name : asistente
 Family : Cyclone II
-Total logic elements : 5
-    Total combinational functions : 5
-    Dedicated logic registers : 4
-Total registers : 4
-Total pins : 38
+Total logic elements : 34
+    Total combinational functions : 34
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 31
 Total virtual pins : 0
-Total memory bits : 716
+Total memory bits : 704
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0

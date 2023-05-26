@@ -32,6 +32,9 @@ vsim work.asistente
 # Loading cycloneii.cycloneii_atom_pack(body)
 # Loading cycloneii.cycloneii_components
 # Loading work.asistente(structure)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneii.cycloneii_io(structure)
 # Loading cycloneii.cycloneii_mux21(altvital)
@@ -39,9 +42,6 @@ vsim work.asistente
 # Loading cycloneii.cycloneii_asynch_io(behave)
 # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 # Loading cycloneii.cycloneii_ena_reg(behave)
-# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-# Loading cycloneii.cycloneii_and1(altvital)
 # Loading cycloneii.cycloneii_ram_block(block_arch)
 # Loading cycloneii.cycloneii_ram_register(reg_arch)
 # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
@@ -58,6 +58,9 @@ vsim work.asistente
 # Loading cycloneii.cycloneii_atom_pack(body)
 # Loading cycloneii.cycloneii_components
 # Loading work.asistente(structure)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneii.cycloneii_io(structure)
 # Loading cycloneii.cycloneii_mux21(altvital)
@@ -65,9 +68,6 @@ vsim work.asistente
 # Loading cycloneii.cycloneii_asynch_io(behave)
 # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 # Loading cycloneii.cycloneii_ena_reg(behave)
-# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-# Loading cycloneii.cycloneii_and1(altvital)
 # Loading cycloneii.cycloneii_ram_block(block_arch)
 # Loading cycloneii.cycloneii_ram_register(reg_arch)
 # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
@@ -106,21 +106,8 @@ add wave -position end  sim:/asistente/disp4_0
 add wave -position end  sim:/asistente/disp3_0
 add wave -position end  sim:/asistente/disp2_0
 force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-add wave -position end  sim:/asistente/mem5
-add wave -position end  sim:/asistente/write
-add wave -position end  sim:/asistente/mem4
-add wave -position end  sim:/asistente/mem3
-add wave -position end  sim:/asistente/mem2
-add wave -position end  sim:/asistente/mem1
-add wave -position end  sim:/asistente/mem0
-force -freeze sim:/asistente/siguiente 0 0
-force -freeze sim:/asistente/aceptar U 0
 force -freeze sim:/asistente/siguiente 0 0
 force -freeze sim:/asistente/aceptar 0 0
-force -freeze sim:/asistente/write 0 0
-force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-run
-force -freeze sim:/asistente/write 1 0
 run
 run
 run
@@ -128,6 +115,50 @@ run
 run
 run
 run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/asistente/aceptar 1 0
 run
 run
 run
@@ -136,12 +167,6 @@ run
 force -freeze sim:/asistente/siguiente 1 0
 run
 run
-force -freeze sim:/asistente/siguiente 0 0
-run
-run
-run
-run
-force -freeze sim:/asistente/siguiente 1 0
 run
 run
 run
