@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition"
 
--- DATE "05/27/2023 16:50:08"
+-- DATE "05/27/2023 17:47:47"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -308,6 +308,7 @@ SIGNAL \inst|inst|inst|altsyncram_component|auto_generated|q_a\ : std_logic_vect
 SIGNAL \inst5|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \inst13|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \inst6|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \inst5|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\ : std_logic_vector(3 DOWNTO 3);
 SIGNAL \inst13|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\ : std_logic_vector(1 DOWNTO 1);
 SIGNAL \inst9|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\ : std_logic_vector(1 DOWNTO 1);
 SIGNAL \inst6|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\ : std_logic_vector(1 DOWNTO 1);
@@ -315,7 +316,6 @@ SIGNAL \inst|inst5|inst|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_l
 SIGNAL \inst|inst4|inst|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \inst|inst3|inst|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \inst|inst2|inst|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_logic_vector(6 DOWNTO 0);
-SIGNAL \inst5|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\ : std_logic_vector(3 DOWNTO 3);
 
 COMPONENT hard_block
     PORT (
@@ -436,6 +436,7 @@ ww_devpor <= devpor;
 \inst13|inst1~clkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \inst13|inst1~combout\);
 
 \inst9|inst1~clkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \inst9|inst1~combout\);
+\inst5|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\(3) <= NOT \inst5|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\(3);
 \inst13|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\(1) <= NOT \inst13|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\(1);
 \inst9|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\(1) <= NOT \inst9|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\(1);
 \inst6|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\(1) <= NOT \inst6|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\(1);
@@ -467,7 +468,6 @@ ww_devpor <= devpor;
 \inst|inst2|inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5) <= NOT \inst|inst2|inst|altsyncram_component|auto_generated|q_a\(5);
 \inst|inst2|inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6) <= NOT \inst|inst2|inst|altsyncram_component|auto_generated|q_a\(6);
 \inst|inst2|inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0) <= NOT \inst|inst2|inst|altsyncram_component|auto_generated|q_a\(0);
-\inst5|inst|LPM_COUNTER_component|auto_generated|ALT_INV_counter_reg_bit\(3) <= NOT \inst5|inst|LPM_COUNTER_component|auto_generated|counter_reg_bit\(3);
 auto_generated_inst : hard_block
 PORT MAP (
 	devoe => ww_devoe,

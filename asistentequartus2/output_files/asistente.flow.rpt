@@ -1,5 +1,5 @@
 Flow report for asistente
-Sat May 27 10:09:30 2023
+Sat May 27 18:09:54 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,16 +40,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sat May 27 10:09:30 2023           ;
+; Flow Status                        ; Successful - Sat May 27 18:09:54 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; asistente                                       ;
 ; Top-level Entity Name              ; asistente                                       ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 34 / 14,448 ( < 1 % )                           ;
-;     Total combinational functions  ; 34 / 14,448 ( < 1 % )                           ;
-;     Dedicated logic registers      ; 16 / 14,448 ( < 1 % )                           ;
-; Total registers                    ; 16                                              ;
-; Total pins                         ; 31 / 315 ( 10 % )                               ;
+; Total logic elements               ; 44 / 14,448 ( < 1 % )                           ;
+;     Total combinational functions  ; 44 / 14,448 ( < 1 % )                           ;
+;     Dedicated logic registers      ; 20 / 14,448 ( < 1 % )                           ;
+; Total registers                    ; 20                                              ;
+; Total pins                         ; 35 / 315 ( 11 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 704 / 239,616 ( < 1 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
@@ -64,64 +64,70 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/27/2023 10:09:20 ;
+; Start date & time ; 05/27/2023 18:09:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; asistente           ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                  ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 929346721367.168520016012644 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_DECODE                   ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CONSTANT                 ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_COUNTER                  ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                      ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CONSTANT                 ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_ADD_SUB                  ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CONSTANT                 ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CONSTANT                 ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                      ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; RAM: 1-PORT                  ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                      ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                      ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                      ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; decoder3_8.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; constante3.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; contador4bits.bsf            ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux4_4.bsf                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; constante0.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder4bits.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; constante5.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; constante7.bsf               ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux3_6.bsf                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram.bsf                      ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux3_4.bsf                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux2_6.bsf                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux1_4.bsf                   ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --             ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 176831337441310.168522898212756 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                      ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; decoder3_8.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; constante3.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; contador4bits.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                           ; mux4_4.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; constante0.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; adder4bits.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; constante5.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; constante7.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; mux3_6.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; ram.bsf                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; mux3_4.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; mux2_6.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; mux1_4.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; contador_jug.bsf                ; --            ; --          ; --             ;
+; MISC_FILE                           ; constante1.bsf                  ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -129,10 +135,10 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:04     ; 1.0                     ; 4657 MB             ; 00:00:02                           ;
-; Fitter               ; 00:00:04     ; 1.0                     ; 4838 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis ; 00:00:03     ; 1.0                     ; 4657 MB             ; 00:00:03                           ;
+; Fitter               ; 00:00:07     ; 1.0                     ; 4842 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4508 MB             ; 00:00:01                           ;
+; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:08                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -141,9 +147,9 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; Simulacion36     ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter               ; Simulacion36     ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; Simulacion36     ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter               ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 

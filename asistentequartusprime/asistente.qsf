@@ -117,9 +117,8 @@ set_location_assignment PIN_N18 -to disp5_3
 set_location_assignment PIN_M20 -to disp5_4
 set_location_assignment PIN_N19 -to disp5_5
 set_location_assignment PIN_N20 -to disp5_6
-set_location_assignment PIN_A8 -to ledd
-set_location_assignment PIN_A9 -to ledc
-set_location_assignment PIN_A10 -to ledb
-set_location_assignment PIN_B10 -to leda
-set_location_assignment PIN_C10 -to switch
+set_location_assignment PIN_A8 -to led0
+set_location_assignment PIN_A9 -to led1
+set_location_assignment PIN_A10 -to led2
+set_location_assignment PIN_B10 -to led3
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

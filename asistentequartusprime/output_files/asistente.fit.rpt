@@ -1,5 +1,5 @@
 Fitter report for asistente
-Sat May 27 16:49:58 2023
+Sat May 27 17:47:38 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -75,7 +75,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Sat May 27 16:49:58 2023          ;
+; Fitter Status                      ; Successful - Sat May 27 17:47:38 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; asistente                                      ;
 ; Top-level Entity Name              ; asistente                                      ;
@@ -166,9 +166,9 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.6%      ;
-;     Processor 3            ;   0.6%      ;
-;     Processor 4            ;   0.6%      ;
+;     Processor 2            ;   0.8%      ;
+;     Processor 3            ;   0.8%      ;
+;     Processor 4            ;   0.7%      ;
 +----------------------------+-------------+
 
 
@@ -177,11 +177,10 @@ https://fpgasoftware.intel.com/eula.
 +----------+----------------+--------------+------------+---------------+----------------+
 ; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
 +----------+----------------+--------------+------------+---------------+----------------+
-; Location ;                ;              ; leda       ; PIN_B10       ; QSF Assignment ;
-; Location ;                ;              ; ledb       ; PIN_A10       ; QSF Assignment ;
-; Location ;                ;              ; ledc       ; PIN_A9        ; QSF Assignment ;
-; Location ;                ;              ; ledd       ; PIN_A8        ; QSF Assignment ;
-; Location ;                ;              ; switch     ; PIN_C10       ; QSF Assignment ;
+; Location ;                ;              ; led0       ; PIN_A8        ; QSF Assignment ;
+; Location ;                ;              ; led1       ; PIN_A9        ; QSF Assignment ;
+; Location ;                ;              ; led2       ; PIN_A10       ; QSF Assignment ;
+; Location ;                ;              ; led3       ; PIN_B10       ; QSF Assignment ;
 +----------+----------------+--------------+------------+---------------+----------------+
 
 
@@ -1519,11 +1518,10 @@ Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Warning (15705): Ignored locations or region assignments to the following nodes
-    Warning (15706): Node "leda" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "ledb" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "ledc" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "ledd" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "switch" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "led0" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "led1" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "led2" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "led3" is assigned to location or region, but does not exist in design
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
@@ -1536,7 +1534,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X67_Y44 to location X78_Y54
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (11888): Total time spent on timing analysis during the Fitter is 0.23 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
@@ -1545,10 +1543,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/quintus/QuintusProyecto/asistentequartusprime/output_files/asistente.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 5642 megabytes
-    Info: Processing ended: Sat May 27 16:49:59 2023
-    Info: Elapsed time: 00:00:12
+Info: Quartus Prime Fitter was successful. 0 errors, 12 warnings
+    Info: Peak virtual memory: 5640 megabytes
+    Info: Processing ended: Sat May 27 17:47:38 2023
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:13
 
 

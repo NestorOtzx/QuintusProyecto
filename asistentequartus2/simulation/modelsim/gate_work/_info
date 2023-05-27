@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\quintus\QuintusProyecto\asistentequartus2\simulation\modelsim
 Easistente
-Z1 w1685200170
+Z1 w1685228994
 Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
 Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
 Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
@@ -16,12 +16,12 @@ Z9 8asistente.vho
 Z10 Fasistente.vho
 l0
 L34
-V7=53]f58d[71E[Cz7E`QP2
-!s100 eOL0[O`>>domU4@7l1_bY0
+Vo6T:IldC`^QZeMSdjX67c0
+!s100 PNc5[<]k^>NY@X`4CGXgJ0
 Z11 OV;C;10.1d;51
 31
 !i10b 1
-Z12 !s108 1685200179.160000
+Z12 !s108 1685229003.408000
 Z13 !s90 -reportprogress|300|-93|-work|work|asistente.vho|
 Z14 !s107 asistente.vho|
 Z15 o-93 -work work -O0
@@ -33,11 +33,11 @@ R4
 R5
 R6
 R7
-DEx4 work 9 asistente 0 22 7=53]f58d[71E[Cz7E`QP2
-l226
-L104
-VeAHOHe?P`=Da<zi?J;Zf61
-!s100 Bf@I0[7H7^Sj?5QU8LR4k0
+DEx4 work 9 asistente 0 22 o6T:IldC`^QZeMSdjX67c0
+l254
+L112
+VEcQRAK2TXOnkog1HB2PS^3
+!s100 T`04IHDCXbQ6mn]?X4L072
 R11
 31
 !i10b 1
