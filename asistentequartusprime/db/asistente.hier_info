@@ -2,11 +2,10 @@
 disp5_0 <= mostrar_palabras:inst.disp5_0
 siguiente => contador:inst6.pulso
 siguiente => contador:inst13.pulso
-siguiente => inst25.IN1
+siguiente => contador:inst9.pulso
 siguiente => bloque_juego:inst3.btn_siguiente
 aceptar => contador:inst5.pulso
 aceptar => bloque_juego:inst3.btn_aceptar
-switch => inst21.IN1
 clk => bloque_juego:inst3.clk
 clk => ram:inst4.clock
 clk => mostrar_palabras:inst.clk
@@ -37,10 +36,6 @@ disp2_6 <= mostrar_palabras:inst.disp2_6
 disp4_0 <= mostrar_palabras:inst.disp4_0
 disp3_0 <= mostrar_palabras:inst.disp3_0
 disp2_0 <= mostrar_palabras:inst.disp2_0
-ledb <= cntmjuego[2].DB_MAX_OUTPUT_PORT_TYPE
-leda <= cntmjuego[3].DB_MAX_OUTPUT_PORT_TYPE
-ledc <= cntmjuego[1].DB_MAX_OUTPUT_PORT_TYPE
-ledd <= cntmjuego[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |asistente|mostrar_palabras:inst
@@ -1300,17 +1295,76 @@ result[2] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[3] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|asistente|7490:inst23
-QA <= 7.DB_MAX_OUTPUT_PORT_TYPE
-CLRA => 9.IN0
-CLRB => 9.IN1
-CLKA => 32.IN0
-SET9A => 8.IN0
-SET9B => 8.IN1
-QB <= 11.DB_MAX_OUTPUT_PORT_TYPE
-CLKB => 33.IN0
-QC <= 14.DB_MAX_OUTPUT_PORT_TYPE
-QD <= 19.DB_MAX_OUTPUT_PORT_TYPE
+|asistente|contador:inst9
+a <= out[3].DB_MAX_OUTPUT_PORT_TYPE
+pulso => inst1.IN0
+enable => inst1.IN1
+set0 => contador4bits:inst.aclr
+b <= out[2].DB_MAX_OUTPUT_PORT_TYPE
+c <= out[1].DB_MAX_OUTPUT_PORT_TYPE
+d <= out[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|asistente|contador:inst9|contador4bits:inst
+aclr => lpm_counter:LPM_COUNTER_component.aclr
+clock => lpm_counter:LPM_COUNTER_component.clock
+q[0] <= lpm_counter:LPM_COUNTER_component.q[0]
+q[1] <= lpm_counter:LPM_COUNTER_component.q[1]
+q[2] <= lpm_counter:LPM_COUNTER_component.q[2]
+q[3] <= lpm_counter:LPM_COUNTER_component.q[3]
+
+
+|asistente|contador:inst9|contador4bits:inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_2ih:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_2ih:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_2ih:auto_generated.q[0]
+q[1] <= cntr_2ih:auto_generated.q[1]
+q[2] <= cntr_2ih:auto_generated.q[2]
+q[3] <= cntr_2ih:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|asistente|contador:inst9|contador4bits:inst|lpm_counter:LPM_COUNTER_component|cntr_2ih:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |asistente|constante7:inst17

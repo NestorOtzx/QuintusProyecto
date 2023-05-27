@@ -116,31 +116,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "ledb",
-					"strict" : false
-				},
-				{
-					"name" : "ledc",
-					"strict" : false
-				},
-				{
-					"name" : "ledd",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "switch",
+					"name" : "aceptar",
 					"strict" : false
 				},
 				{
 					"name" : "siguiente",
-					"strict" : false
-				},
-				{
-					"name" : "aceptar",
 					"strict" : false
 				}
 			]
