@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat May 27 12:49:02 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : asistente
+Top-level Entity Name : asistente
+Family : MAX 10
+Total logic elements : 35
+    Total combinational functions : 35
+    Dedicated logic registers : 15
+Total registers : 15
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 704
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

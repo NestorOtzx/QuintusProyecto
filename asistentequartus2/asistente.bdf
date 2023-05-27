@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 72 1568 88)
+	(rect 1456 72 1632 88)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 88 1568 104)
+	(rect 1456 88 1632 104)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 104 1568 120)
+	(rect 1456 104 1632 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 120 1568 136)
+	(rect 1456 120 1632 136)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 152 1568 168)
+	(rect 1456 152 1632 168)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 136 1568 152)
+	(rect 1456 136 1632 152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 168 1568 184)
+	(rect 1456 168 1632 184)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp5_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -181,7 +181,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 200 1568 216)
+	(rect 1456 200 1632 216)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -197,7 +197,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 216 1568 232)
+	(rect 1456 216 1632 232)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -213,7 +213,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 232 1568 248)
+	(rect 1456 232 1632 248)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -229,7 +229,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 248 1568 264)
+	(rect 1456 248 1632 264)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -245,7 +245,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 264 1568 280)
+	(rect 1456 264 1632 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -261,7 +261,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 280 1568 296)
+	(rect 1456 280 1632 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -277,7 +277,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 312 1568 328)
+	(rect 1456 312 1632 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -293,7 +293,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 328 1568 344)
+	(rect 1456 328 1632 344)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -309,7 +309,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 344 1568 360)
+	(rect 1456 344 1632 360)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -325,7 +325,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 360 1568 376)
+	(rect 1456 360 1632 376)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -341,7 +341,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 376 1568 392)
+	(rect 1456 376 1632 392)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -357,7 +357,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 392 1568 408)
+	(rect 1456 392 1632 408)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -373,7 +373,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 424 1568 440)
+	(rect 1456 424 1632 440)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_1" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -389,7 +389,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 440 1568 456)
+	(rect 1456 440 1632 456)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_2" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -405,7 +405,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 456 1568 472)
+	(rect 1456 456 1632 472)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_3" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -421,7 +421,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 472 1568 488)
+	(rect 1456 472 1632 488)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_4" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -437,7 +437,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 488 1568 504)
+	(rect 1456 488 1632 504)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_5" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -453,7 +453,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 504 1568 520)
+	(rect 1456 504 1632 520)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_6" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -469,7 +469,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 184 1568 200)
+	(rect 1456 184 1632 200)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp4_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -485,7 +485,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 296 1568 312)
+	(rect 1456 296 1632 312)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp3_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -501,7 +501,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1392 408 1568 424)
+	(rect 1456 408 1632 424)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp2_0" (rect 90 0 127 12)(font "Arial" ))
 	(pt 0 8)
@@ -1504,7 +1504,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 408 912 672 1104)
+	(rect 400 904 664 1096)
 	(text "bloque_juego" (rect 5 0 80 14)(font "Arial" (font_size 8)))
 	(text "inst3" (rect 8 176 31 188)(font "Arial" ))
 	(port
@@ -1861,114 +1861,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1392 80)
-	(pt 1440 80)
-)
-(connector
-	(pt 1392 96)
-	(pt 1440 96)
-)
-(connector
-	(pt 1392 112)
-	(pt 1440 112)
-)
-(connector
-	(pt 1392 128)
-	(pt 1440 128)
-)
-(connector
-	(pt 1392 144)
-	(pt 1440 144)
-)
-(connector
-	(pt 1392 160)
-	(pt 1440 160)
-)
-(connector
-	(pt 1392 176)
-	(pt 1440 176)
-)
-(connector
-	(pt 1392 192)
-	(pt 1440 192)
-)
-(connector
-	(pt 1392 208)
-	(pt 1440 208)
-)
-(connector
-	(pt 1392 224)
-	(pt 1440 224)
-)
-(connector
-	(pt 1392 240)
-	(pt 1440 240)
-)
-(connector
-	(pt 1392 256)
-	(pt 1440 256)
-)
-(connector
-	(pt 1392 272)
-	(pt 1440 272)
-)
-(connector
-	(pt 1392 288)
-	(pt 1440 288)
-)
-(connector
-	(pt 1392 304)
-	(pt 1440 304)
-)
-(connector
-	(pt 1392 320)
-	(pt 1440 320)
-)
-(connector
-	(pt 1392 336)
-	(pt 1440 336)
-)
-(connector
-	(pt 1392 352)
-	(pt 1440 352)
-)
-(connector
-	(pt 1392 368)
-	(pt 1440 368)
-)
-(connector
-	(pt 1392 384)
-	(pt 1440 384)
-)
-(connector
-	(pt 1392 400)
-	(pt 1440 400)
-)
-(connector
-	(pt 1392 416)
-	(pt 1440 416)
-)
-(connector
-	(pt 1392 448)
-	(pt 1440 448)
-)
-(connector
-	(pt 1392 464)
-	(pt 1440 464)
-)
-(connector
-	(pt 1392 480)
-	(pt 1440 480)
-)
-(connector
-	(pt 1392 496)
-	(pt 1440 496)
-)
-(connector
-	(pt 1392 512)
-	(pt 1440 512)
-)
-(connector
 	(text "palabmux[3]" (rect 1274 64 1334 76)(font "Arial" ))
 	(pt 1264 80)
 	(pt 1328 80)
@@ -1996,17 +1888,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1080 152)
-	(pt 1080 192)
-	(bus)
-)
-(connector
-	(text "estado[2..0]" (rect 936 176 995 188)(font "Arial" ))
-	(pt 1080 192)
-	(pt 936 192)
-	(bus)
-)
-(connector
 	(pt 872 512)
 	(pt 872 96)
 	(bus)
@@ -2025,14 +1906,6 @@ applicable agreement for further details.
 	(pt 888 80)
 	(pt 1008 80)
 	(bus)
-)
-(connector
-	(pt 1392 432)
-	(pt 1392 424)
-)
-(connector
-	(pt 1392 432)
-	(pt 1440 432)
 )
 (connector
 	(pt 360 8)
@@ -2170,75 +2043,13 @@ applicable agreement for further details.
 	(pt 352 120)
 )
 (connector
-	(pt 352 944)
-	(pt 352 120)
-)
-(connector
-	(pt 352 944)
-	(pt 408 944)
-)
-(connector
-	(pt 408 960)
-	(pt 360 960)
-)
-(connector
-	(pt 360 464)
-	(pt 360 672)
-)
-(connector
-	(pt 360 672)
-	(pt 360 960)
-)
-(connector
 	(pt 296 232)
 	(pt 312 232)
-)
-(connector
-	(pt 408 1008)
-	(pt 312 1008)
-)
-(connector
-	(text "cntmjuego[1..0]" (rect 338 976 414 988)(font "Arial" ))
-	(pt 408 992)
-	(pt 336 992)
-	(bus)
-)
-(connector
-	(pt 408 1024)
-	(pt 328 1024)
-)
-(connector
-	(pt 672 944)
-	(pt 904 944)
-	(bus)
 )
 (connector
 	(pt 1008 64)
 	(pt 904 64)
 	(bus)
-)
-(connector
-	(pt 904 944)
-	(pt 904 64)
-	(bus)
-)
-(connector
-	(pt 672 1008)
-	(pt 680 1008)
-)
-(connector
-	(pt 672 976)
-	(pt 688 976)
-	(bus)
-)
-(connector
-	(pt 672 992)
-	(pt 704 992)
-	(bus)
-)
-(connector
-	(pt 328 1024)
-	(pt 328 1216)
 )
 (connector
 	(pt 1272 144)
@@ -2283,10 +2094,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 680 1008)
-	(pt 680 1152)
-)
-(connector
 	(pt 680 1152)
 	(pt -136 1152)
 )
@@ -2313,11 +2120,6 @@ applicable agreement for further details.
 	(pt -240 936)
 )
 (connector
-	(pt 688 976)
-	(pt 688 1184)
-	(bus)
-)
-(connector
 	(pt -472 688)
 	(pt -472 1184)
 	(bus)
@@ -2325,11 +2127,6 @@ applicable agreement for further details.
 (connector
 	(pt 688 1184)
 	(pt -472 1184)
-	(bus)
-)
-(connector
-	(pt 704 992)
-	(pt 704 1168)
 	(bus)
 )
 (connector
@@ -2343,24 +2140,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 312 232)
-	(pt 312 936)
-)
-(connector
-	(pt 312 936)
-	(pt 312 1008)
-)
-(connector
 	(pt -328 1216)
 	(pt -96 1216)
-)
-(connector
-	(pt -96 1216)
-	(pt 328 1216)
-)
-(connector
-	(pt 328 1216)
-	(pt 1272 1216)
 )
 (connector
 	(pt -208 720)
@@ -2417,14 +2198,233 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 168 976)
-	(pt 168 720)
+	(pt 1440 80)
+	(pt 1456 80)
+)
+(connector
+	(pt 1440 96)
+	(pt 1456 96)
+)
+(connector
+	(pt 1440 112)
+	(pt 1456 112)
+)
+(connector
+	(pt 1440 128)
+	(pt 1456 128)
+)
+(connector
+	(pt 1440 144)
+	(pt 1456 144)
+)
+(connector
+	(pt 1440 160)
+	(pt 1456 160)
+)
+(connector
+	(pt 1440 176)
+	(pt 1456 176)
+)
+(connector
+	(pt 1440 192)
+	(pt 1456 192)
+)
+(connector
+	(pt 1440 208)
+	(pt 1456 208)
+)
+(connector
+	(pt 1440 224)
+	(pt 1456 224)
+)
+(connector
+	(pt 1440 240)
+	(pt 1456 240)
+)
+(connector
+	(pt 1440 256)
+	(pt 1456 256)
+)
+(connector
+	(pt 1440 272)
+	(pt 1456 272)
+)
+(connector
+	(pt 1440 288)
+	(pt 1456 288)
+)
+(connector
+	(pt 1440 304)
+	(pt 1456 304)
+)
+(connector
+	(pt 1440 320)
+	(pt 1456 320)
+)
+(connector
+	(pt 1440 336)
+	(pt 1456 336)
+)
+(connector
+	(pt 1440 352)
+	(pt 1456 352)
+)
+(connector
+	(pt 1440 368)
+	(pt 1456 368)
+)
+(connector
+	(pt 1440 384)
+	(pt 1456 384)
+)
+(connector
+	(pt 1440 400)
+	(pt 1456 400)
+)
+(connector
+	(pt 1440 416)
+	(pt 1456 416)
+)
+(connector
+	(pt 1440 432)
+	(pt 1456 432)
+)
+(connector
+	(pt 1440 448)
+	(pt 1456 448)
+)
+(connector
+	(pt 1440 464)
+	(pt 1456 464)
+)
+(connector
+	(pt 1440 480)
+	(pt 1456 480)
+)
+(connector
+	(pt 1440 496)
+	(pt 1456 496)
+)
+(connector
+	(pt 1440 512)
+	(pt 1456 512)
+)
+(connector
+	(pt 1456 432)
+	(pt 1456 424)
+)
+(connector
+	(pt 1080 152)
+	(pt 1080 176)
 	(bus)
 )
 (connector
-	(pt 408 976)
-	(pt 168 976)
+	(text "estado[2..0]" (rect 944 160 1003 172)(font "Arial" ))
+	(pt 1080 176)
+	(pt 944 176)
 	(bus)
+)
+(connector
+	(pt 352 120)
+	(pt 352 936)
+)
+(connector
+	(pt 352 936)
+	(pt 400 936)
+)
+(connector
+	(pt 360 952)
+	(pt 400 952)
+)
+(connector
+	(pt 312 1000)
+	(pt 400 1000)
+)
+(connector
+	(text "cntmjuego[1..0]" (rect 330 968 406 980)(font "Arial" ))
+	(pt 400 984)
+	(pt 328 984)
+	(bus)
+)
+(connector
+	(pt 328 1016)
+	(pt 400 1016)
+)
+(connector
+	(pt 904 936)
+	(pt 664 936)
+	(bus)
+)
+(connector
+	(pt 904 64)
+	(pt 904 936)
+	(bus)
+)
+(connector
+	(pt 680 1000)
+	(pt 664 1000)
+)
+(connector
+	(pt 688 968)
+	(pt 664 968)
+	(bus)
+)
+(connector
+	(pt 704 984)
+	(pt 664 984)
+	(bus)
+)
+(connector
+	(pt 328 1216)
+	(pt 328 1016)
+)
+(connector
+	(pt 680 1152)
+	(pt 680 1000)
+)
+(connector
+	(pt 688 1184)
+	(pt 688 968)
+	(bus)
+)
+(connector
+	(pt 704 1168)
+	(pt 704 984)
+	(bus)
+)
+(connector
+	(pt 168 720)
+	(pt 168 968)
+	(bus)
+)
+(connector
+	(pt 168 968)
+	(pt 400 968)
+	(bus)
+)
+(connector
+	(pt 360 464)
+	(pt 360 672)
+)
+(connector
+	(pt 360 672)
+	(pt 360 952)
+)
+(connector
+	(pt -96 1216)
+	(pt 328 1216)
+)
+(connector
+	(pt 328 1216)
+	(pt 1272 1216)
+)
+(connector
+	(pt 312 232)
+	(pt 312 936)
+)
+(connector
+	(pt 312 936)
+	(pt 312 1000)
 )
 (junction (pt 528 120))
 (junction (pt 360 88))
