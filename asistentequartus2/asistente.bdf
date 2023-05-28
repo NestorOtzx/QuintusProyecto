@@ -2437,17 +2437,6 @@ applicable agreement for further details.
 	(pt 1456 424)
 )
 (connector
-	(pt 1080 152)
-	(pt 1080 176)
-	(bus)
-)
-(connector
-	(text "estado[2..0]" (rect 944 160 1003 172)(font "Arial" ))
-	(pt 1080 176)
-	(pt 944 176)
-	(bus)
-)
-(connector
 	(pt 352 120)
 	(pt 352 936)
 )
@@ -2702,17 +2691,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "estado[2..0]" (rect 944 488 1003 500)(font "Arial" ))
-	(pt 1080 504)
-	(pt 944 504)
-	(bus)
-)
-(connector
-	(pt 1080 504)
-	(pt 1080 448)
-	(bus)
-)
-(connector
 	(pt 1008 408)
 	(pt 960 408)
 	(bus)
@@ -2755,12 +2733,60 @@ applicable agreement for further details.
 	(pt 576 312)
 )
 (connector
+	(pt 296 184)
+	(pt 336 184)
+)
+(connector
+	(pt 336 184)
+	(pt 336 280)
+)
+(connector
+	(pt 440 280)
+	(pt 336 280)
+)
+(connector
+	(text "estado[2..0]" (rect 936 160 995 172)(font "Arial" ))
+	(pt 1080 176)
+	(pt 936 176)
+	(bus)
+)
+(connector
+	(pt 1080 280)
+	(pt 984 280)
+	(bus)
+)
+(connector
+	(pt 1080 152)
+	(pt 1080 176)
+	(bus)
+)
+(connector
+	(pt 1080 176)
+	(pt 1080 280)
+	(bus)
+)
+(connector
+	(pt 984 280)
+	(pt 984 488)
+	(bus)
+)
+(connector
+	(pt 984 488)
+	(pt 1080 488)
+	(bus)
+)
+(connector
+	(pt 1080 488)
+	(pt 1080 448)
+	(bus)
+)
+(connector
 	(pt 440 296)
 	(pt 424 296)
 )
 (connector
-	(pt 424 224)
 	(pt 424 296)
+	(pt 424 224)
 )
 (connector
 	(pt 424 224)
@@ -2779,18 +2805,6 @@ applicable agreement for further details.
 	(pt 544 264)
 	(pt 576 264)
 )
-(connector
-	(pt 296 184)
-	(pt 336 184)
-)
-(connector
-	(pt 336 184)
-	(pt 336 280)
-)
-(connector
-	(pt 440 280)
-	(pt 336 280)
-)
 (junction (pt 360 88))
 (junction (pt 512 496))
 (junction (pt 360 464))
@@ -2804,4 +2818,5 @@ applicable agreement for further details.
 (junction (pt 512 704))
 (junction (pt 520 120))
 (junction (pt 360 264))
+(junction (pt 1080 176))
 (junction (pt 544 264))
