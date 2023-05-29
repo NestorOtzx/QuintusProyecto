@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\quintus\QuintusProyecto\modulos\guardar_ganador\simulation\modelsim
 Eguardar_ganador
-Z1 w1685376797
+Z1 w1685379164
 Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
 Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
 Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
@@ -16,12 +16,12 @@ Z9 8guardar_ganador.vho
 Z10 Fguardar_ganador.vho
 l0
 L34
-VYV434YSQk?1TYlM`ocedF2
-!s100 D7Z8?So9;:ff<5Zn:?zO;3
+V3C5Oo3TJ==`jR^]?8i_@<0
+!s100 U3_3XWU3^7_TPOkzkGXN13
 Z11 OV;C;10.1d;51
 31
 !i10b 1
-Z12 !s108 1685376805.073000
+Z12 !s108 1685379171.427000
 Z13 !s90 -reportprogress|300|-93|-work|work|guardar_ganador.vho|
 Z14 !s107 guardar_ganador.vho|
 Z15 o-93 -work work -O0
@@ -33,11 +33,11 @@ R4
 R5
 R6
 R7
-DEx4 work 15 guardar_ganador 0 22 YV434YSQk?1TYlM`ocedF2
-l113
-L64
-VT?6WBl?zdZFi=n[`W9:iV1
-!s100 abjH7NPK5A0^kCI>1bR@X0
+DEx4 work 15 guardar_ganador 0 22 3C5Oo3TJ==`jR^]?8i_@<0
+l140
+L77
+V^`^NXYRDK5@HgTR5jn=:k2
+!s100 lJQB04ESY^FRA1dLO^09_0
 R11
 31
 !i10b 1

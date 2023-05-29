@@ -6,14 +6,10 @@ reset => contador6bits:inst29.clr
 reset => contador6bits:inst.clr
 reset => contador3bits:inst6.aclr
 reset => generadorPulsos:inst27.reset
-reset => recordador:inst38.reset
-reset => recordador:inst41.reset
 clk => generadorPulsos:inst34.clock
 clk => juegoPorRondas:inst25.clock
 clk => ram:inst12.clock
 clk => generadorPulsos:inst27.clock
-clk => recordador:inst38.clk
-clk => recordador:inst41.clk
 aceptar => generadorPulsos:inst34.x
 aceptar => inst1.IN0
 aceptar => contador6bits:inst29.siguiente
@@ -1205,120 +1201,6 @@ sel[1] => _.IN0
 sel[1] => _.IN0
 sel[1] => _.IN0
 sel[1] => _.IN0
-
-
-|juego_rondas|recordador:inst41
-salida[0] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-salida[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-salida[2] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-salida[3] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-salida[4] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-salida[5] <= inst.DB_MAX_OUTPUT_PORT_TYPE
-reset => inst.ACLR
-reset => inst1.ACLR
-reset => inst2.ACLR
-reset => inst3.ACLR
-reset => inst4.ACLR
-reset => inst5.ACLR
-write => instand.IN0
-clk => instand.IN1
-numero[0] => inst5.DATAIN
-numero[1] => inst4.DATAIN
-numero[2] => inst3.DATAIN
-numero[3] => inst2.DATAIN
-numero[4] => inst1.DATAIN
-numero[5] => inst.DATAIN
-
-
-|juego_rondas|comparadorPuntajes:inst39
-dataa[0] => lpm_compare:LPM_COMPARE_component.dataa[0]
-dataa[1] => lpm_compare:LPM_COMPARE_component.dataa[1]
-dataa[2] => lpm_compare:LPM_COMPARE_component.dataa[2]
-dataa[3] => lpm_compare:LPM_COMPARE_component.dataa[3]
-dataa[4] => lpm_compare:LPM_COMPARE_component.dataa[4]
-dataa[5] => lpm_compare:LPM_COMPARE_component.dataa[5]
-datab[0] => lpm_compare:LPM_COMPARE_component.datab[0]
-datab[1] => lpm_compare:LPM_COMPARE_component.datab[1]
-datab[2] => lpm_compare:LPM_COMPARE_component.datab[2]
-datab[3] => lpm_compare:LPM_COMPARE_component.datab[3]
-datab[4] => lpm_compare:LPM_COMPARE_component.datab[4]
-datab[5] => lpm_compare:LPM_COMPARE_component.datab[5]
-ageb <= lpm_compare:LPM_COMPARE_component.ageb
-
-
-|juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component
-dataa[0] => cmpr_ikg:auto_generated.dataa[0]
-dataa[1] => cmpr_ikg:auto_generated.dataa[1]
-dataa[2] => cmpr_ikg:auto_generated.dataa[2]
-dataa[3] => cmpr_ikg:auto_generated.dataa[3]
-dataa[4] => cmpr_ikg:auto_generated.dataa[4]
-dataa[5] => cmpr_ikg:auto_generated.dataa[5]
-datab[0] => cmpr_ikg:auto_generated.datab[0]
-datab[1] => cmpr_ikg:auto_generated.datab[1]
-datab[2] => cmpr_ikg:auto_generated.datab[2]
-datab[3] => cmpr_ikg:auto_generated.datab[3]
-datab[4] => cmpr_ikg:auto_generated.datab[4]
-datab[5] => cmpr_ikg:auto_generated.datab[5]
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-alb <= <GND>
-aeb <= <GND>
-agb <= <GND>
-aleb <= <GND>
-aneb <= <GND>
-ageb <= cmpr_ikg:auto_generated.ageb
-
-
-|juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component|cmpr_ikg:auto_generated
-ageb <= ageb.DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => _.IN0
-dataa[0] => op_1.IN12
-dataa[1] => _.IN0
-dataa[1] => op_1.IN10
-dataa[2] => _.IN0
-dataa[2] => op_1.IN8
-dataa[3] => _.IN0
-dataa[3] => op_1.IN6
-dataa[4] => _.IN0
-dataa[4] => op_1.IN4
-dataa[5] => _.IN0
-dataa[5] => op_1.IN2
-datab[0] => _.IN1
-datab[0] => op_1.IN11
-datab[1] => _.IN1
-datab[1] => op_1.IN9
-datab[2] => _.IN1
-datab[2] => op_1.IN7
-datab[3] => _.IN1
-datab[3] => op_1.IN5
-datab[4] => _.IN1
-datab[4] => op_1.IN3
-datab[5] => _.IN1
-datab[5] => op_1.IN1
-
-
-|juego_rondas|recordador:inst38
-salida[0] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-salida[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-salida[2] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-salida[3] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-salida[4] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-salida[5] <= inst.DB_MAX_OUTPUT_PORT_TYPE
-reset => inst.ACLR
-reset => inst1.ACLR
-reset => inst2.ACLR
-reset => inst3.ACLR
-reset => inst4.ACLR
-reset => inst5.ACLR
-write => instand.IN0
-clk => instand.IN1
-numero[0] => inst5.DATAIN
-numero[1] => inst4.DATAIN
-numero[2] => inst3.DATAIN
-numero[3] => inst2.DATAIN
-numero[4] => inst1.DATAIN
-numero[5] => inst.DATAIN
 
 
 |juego_rondas|mux2_4:inst7

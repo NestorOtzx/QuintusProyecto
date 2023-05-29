@@ -18,7 +18,7 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File juego_rondas_run_msim_gate_vhdl.do already exists - backing up current file as juego_rondas_run_msim_gate_vhdl.do.bak6
+Warning: File juego_rondas_run_msim_gate_vhdl.do already exists - backing up current file as juego_rondas_run_msim_gate_vhdl.do.bak11
 Probing transcript
 ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
 ModelSim-Altera Info: # do juego_rondas_run_msim_gate_vhdl.do 
@@ -84,16 +84,28 @@ ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/jug2
 ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/jug1
 ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/jug0
 ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/ganador
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt5
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt4
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt3
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt2
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt1
+ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/mpunt0
 ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/numeros
 ModelSim-Altera Info: add wave -position end  sim:/juego_rondas/palabras
-ModelSim-Altera Info: force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/reset 0 0
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
 ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
@@ -107,11 +119,37 @@ ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
+ModelSim-Altera Info: run
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
 ModelSim-Altera Info: run
@@ -125,20 +163,14 @@ ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
 ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
@@ -146,52 +178,14 @@ ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0, 0 {200 ps} -r 1000
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
@@ -200,4 +194,152 @@ ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
 ModelSim-Altera Info: restart
+ModelSim-Altera Warning: # ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+ModelSim-Altera Info: # This may because you are loading cell libraries which are not recommended with
+ModelSim-Altera Info: # the ModelSim Altera version. Expect performance to be adversely affected.
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/reset 0 0
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: noforce sim:/juego_rondas/siguiente
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/siguiente 0 0
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 0 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/juego_rondas/aceptar 1 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
 Info: NativeLink simulation flow was successful

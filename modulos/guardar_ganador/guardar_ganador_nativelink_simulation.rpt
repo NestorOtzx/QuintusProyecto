@@ -18,7 +18,7 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File guardar_ganador_run_msim_gate_vhdl.do already exists - backing up current file as guardar_ganador_run_msim_gate_vhdl.do.bak
+Warning: File guardar_ganador_run_msim_gate_vhdl.do already exists - backing up current file as guardar_ganador_run_msim_gate_vhdl.do.bak4
 Probing transcript
 ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
 ModelSim-Altera Info: # do guardar_ganador_run_msim_gate_vhdl.do 
@@ -54,32 +54,12 @@ ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_atom_pack(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_components
 ModelSim-Altera Info: # Loading work.guardar_ganador(structure)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
-ModelSim-Altera Info: vsim work.guardar_ganador
-ModelSim-Altera Info: # vsim work.guardar_ganador 
-ModelSim-Altera Info: # Loading std.standard
-ModelSim-Altera Info: # Loading std.textio(body)
-ModelSim-Altera Info: # Loading ieee.std_logic_1164(body)
-ModelSim-Altera Info: # Loading ieee.vital_timing(body)
-ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_atom_pack(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_components
-ModelSim-Altera Info: # Loading work.guardar_ganador(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
@@ -89,12 +69,65 @@ ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/punt_actual
 ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/pulso
 ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/enable
 ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/clr
+ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/ganador
+ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/clk
+ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/jugador
 ModelSim-Altera Info: add wave -position end  sim:/guardar_ganador/mejor_puntaje
+ModelSim-Altera Info: force -freeze sim:/guardar_ganador/clk 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: force -freeze sim:/guardar_ganador/jugador 0 0
+ModelSim-Altera Info: # Value length (1) does not equal array index length (3).
+ModelSim-Altera Info: # 
+ModelSim-Altera Error: # ** Error: (vsim-4011) Invalid force value: 0 0.
+ModelSim-Altera Info: 
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: force -freeze sim:/guardar_ganador/jugador 000 0
 ModelSim-Altera Info: force -freeze sim:/guardar_ganador/punt_actual 000000 0
 ModelSim-Altera Info: force -freeze sim:/guardar_ganador/pulso 0 0
 ModelSim-Altera Info: force -freeze sim:/guardar_ganador/enable 1 0
 ModelSim-Altera Info: force -freeze sim:/guardar_ganador/clr 0 0
 ModelSim-Altera Info: run
 ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/guardar_ganador/pulso 1 0
-Info: NativeLink simulation flow was successful
+ModelSim-Altera Info: run
+ModelSim-Altera Info: force -freeze sim:/guardar_ganador/jugador 001 0
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

@@ -135,7 +135,7 @@ applicable agreement for further details.
 	(input)
 	(rect -680 352 -480 368)
 	(text "INPUT" (rect 157 0 185 10)(font "Arial" (font_size 6)))
-	(text "cant_jugadores[2..0]" (rect 5 0 106 12)(font "Arial" ))
+	(text "cant_jugadores[2..0]" (rect 5 0 105 12)(font "Arial" ))
 	(pt 200 8)
 	(drawing
 		(line (pt 116 12)(pt 141 12))

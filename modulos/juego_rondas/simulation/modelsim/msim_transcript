@@ -62,16 +62,28 @@ add wave -position end  sim:/juego_rondas/jug2
 add wave -position end  sim:/juego_rondas/jug1
 add wave -position end  sim:/juego_rondas/jug0
 add wave -position end  sim:/juego_rondas/ganador
+add wave -position end  sim:/juego_rondas/mpunt5
+add wave -position end  sim:/juego_rondas/mpunt4
+add wave -position end  sim:/juego_rondas/mpunt3
+add wave -position end  sim:/juego_rondas/mpunt2
+add wave -position end  sim:/juego_rondas/mpunt1
+add wave -position end  sim:/juego_rondas/mpunt0
 add wave -position end  sim:/juego_rondas/numeros
 add wave -position end  sim:/juego_rondas/palabras
-force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/juego_rondas/reset 0 0
 force -freeze sim:/juego_rondas/aceptar 0 0
 force -freeze sim:/juego_rondas/siguiente 0 0
 run
+force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
 run
 run
 force -freeze sim:/juego_rondas/siguiente 1 0, 0 {50 ps} -r 100
+run
 run
 run
 run
@@ -85,11 +97,37 @@ run
 run
 run
 run
+run
 force -freeze sim:/juego_rondas/aceptar 1 0
 run
 run
 run
 run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
 run
 force -freeze sim:/juego_rondas/aceptar 0 0
 run
@@ -103,20 +141,14 @@ force -freeze sim:/juego_rondas/aceptar 1 0
 run
 run
 run
+run
+run
+run
 force -freeze sim:/juego_rondas/aceptar 0 0
 run
 run
 run
 run
-force -freeze sim:/juego_rondas/siguiente 1 0
-run
-run
-run
-run
-run
-force -freeze sim:/juego_rondas/siguiente 0 0
-run
-run
 run
 run
 run
@@ -124,52 +156,14 @@ force -freeze sim:/juego_rondas/siguiente 1 0
 run
 run
 run
-force -freeze sim:/juego_rondas/siguiente 0 0
 run
 run
 run
-force -freeze sim:/juego_rondas/aceptar 1 0, 0 {200 ps} -r 1000
+force -freeze sim:/juego_rondas/aceptar 1 0
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+force -freeze sim:/juego_rondas/aceptar 0 0
 run
 run
 run
@@ -178,3 +172,151 @@ run
 run
 run
 restart
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/juego_rondas/reset 0 0
+force -freeze sim:/juego_rondas/aceptar 0 0
+force -freeze sim:/juego_rondas/siguiente 0 0
+force -freeze sim:/juego_rondas/clk 1 0, 0 {50 ps} -r 100
+run
+run
+force -freeze sim:/juego_rondas/siguiente 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/juego_rondas/siguiente
+force -freeze sim:/juego_rondas/siguiente 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/siguiente 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/siguiente 0 0
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/juego_rondas/aceptar 1 0
+run
+run

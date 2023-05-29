@@ -17,7 +17,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante4:inst17|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_ae6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|multiplexor1bit:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_33e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|ram:inst12|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lsc1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_ikg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante10:inst26|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_nf6.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

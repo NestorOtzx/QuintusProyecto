@@ -9,6 +9,17 @@ punt_actual[5] => comparadorPuntajes:inst4.dataa[5]
 pulso => inst2.IN1
 enable => contador6bits:inst.enable
 clr => contador6bits:inst.clr
+clr => recordador:inst1.reset
+ganador[0] <= gan[0].DB_MAX_OUTPUT_PORT_TYPE
+ganador[1] <= gan[1].DB_MAX_OUTPUT_PORT_TYPE
+ganador[2] <= gan[2].DB_MAX_OUTPUT_PORT_TYPE
+ganador[3] <= gan[3].DB_MAX_OUTPUT_PORT_TYPE
+ganador[4] <= gan[4].DB_MAX_OUTPUT_PORT_TYPE
+ganador[5] <= gan[5].DB_MAX_OUTPUT_PORT_TYPE
+clk => recordador:inst1.clk
+jugador[0] => recordador:inst1.numero[0]
+jugador[1] => recordador:inst1.numero[1]
+jugador[2] => recordador:inst1.numero[2]
 mejor_puntaje[0] <= contador6bits:inst.out[0]
 mejor_puntaje[1] <= contador6bits:inst.out[1]
 mejor_puntaje[2] <= contador6bits:inst.out[2]
@@ -172,5 +183,23 @@ q[2] <= counter_reg_bit1a[2].REGOUT
 q[3] <= counter_reg_bit1a[3].REGOUT
 q[4] <= counter_reg_bit1a[4].REGOUT
 q[5] <= counter_reg_bit1a[5].REGOUT
+
+
+|guardar_ganador|recordador:inst1
+salida[0] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+salida[4] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+salida[5] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+reset => inst6.IN0
+write => instand.IN0
+clk => instand.IN1
+numero[0] => inst5.DATAIN
+numero[1] => inst4.DATAIN
+numero[2] => inst3.DATAIN
+numero[3] => inst2.DATAIN
+numero[4] => inst1.DATAIN
+numero[5] => inst.DATAIN
 
 

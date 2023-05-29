@@ -4,8 +4,8 @@ Info: Start Nativelink Simulation process
 
 Sim Mode              :  Gate
 Family                :  cycloneii
-Quartus root          :  e:/programas/quartus2/quartus/bin64/
-Quartus sim root      :  e:/programas/quartus2/quartus/eda/sim_lib
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  vhdl
 Version               :  93
@@ -17,19 +17,19 @@ Sim dir               :  simulation\modelsim
 =======================================================
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
-Sourced NativeLink script e:/programas/quartus2/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
 Warning: File asistente_run_msim_gate_vhdl.do already exists - backing up current file as asistente_run_msim_gate_vhdl.do.bak11
 Probing transcript
-ModelSim-Altera Info: # Reading E:/Programas/quartus2/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
 ModelSim-Altera Info: # do asistente_run_msim_gate_vhdl.do 
 ModelSim-Altera Info: # if {[file exists gate_work]} {
 ModelSim-Altera Info: # 	vdel -lib gate_work -all
 ModelSim-Altera Info: # }
 ModelSim-Altera Info: # vlib gate_work
 ModelSim-Altera Info: # vmap work gate_work
-ModelSim-Altera Info: # Copying E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 ModelSim-Altera Info: # Modifying modelsim.ini
-ModelSim-Altera Warning: # ** Warning: Copied E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 ModelSim-Altera Info: #          Updated modelsim.ini.
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vcom -93 -work work {asistente.vho}
@@ -57,230 +57,17 @@ ModelSim-Altera Info: # Loading work.asistente(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_block(block_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_register(reg_arch)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
 ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
-ModelSim-Altera Warning: # ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
-ModelSim-Altera Info: # This may because you are loading cell libraries which are not recommended with
-ModelSim-Altera Info: # the ModelSim Altera version. Expect performance to be adversely affected.
-ModelSim-Altera Info: vsim work.asistente
-ModelSim-Altera Info: # vsim work.asistente 
-ModelSim-Altera Info: # Loading std.standard
-ModelSim-Altera Info: # Loading std.textio(body)
-ModelSim-Altera Info: # Loading ieee.std_logic_1164(body)
-ModelSim-Altera Info: # Loading ieee.vital_timing(body)
-ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_atom_pack(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_components
-ModelSim-Altera Info: # Loading work.asistente(structure)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_block(block_arch)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_register(reg_arch)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_and1(altvital)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 ModelSim-Altera Info: # Loading cycloneii.cycloneii_ena_reg(behave)
-ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_io(structure)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_mux21(altvital)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_dffe(behave)
-ModelSim-Altera Info: # Loading cycloneii.cycloneii_asynch_io(behave)
 ModelSim-Altera Warning: # ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
 ModelSim-Altera Info: # This may because you are loading cell libraries which are not recommended with
 ModelSim-Altera Info: # the ModelSim Altera version. Expect performance to be adversely affected.
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/aceptar
-ModelSim-Altera Info: add wave -position end  sim:/asistente/siguiente
-ModelSim-Altera Info: add wave -position end  sim:/asistente/clk
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp5_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp4_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp3_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp2_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp1_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_0
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_3
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_4
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_6
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_5
-ModelSim-Altera Info: add wave -position end  sim:/asistente/disp0_2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/jug2
-ModelSim-Altera Info: add wave -position end  sim:/asistente/jug1
-ModelSim-Altera Info: add wave -position end  sim:/asistente/jug0
-ModelSim-Altera Info: force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-ModelSim-Altera Info: force -freeze sim:/asistente/clk 1 0, 0 {50 ps} -r 100
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 1 0, 0 {50 ps} -r 100
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: noforce sim:/asistente/siguiente
-ModelSim-Altera Info: force -freeze sim:/asistente/siguiente 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 1 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
-ModelSim-Altera Info: force -freeze sim:/asistente/aceptar 0 0
-ModelSim-Altera Info: run
-ModelSim-Altera Info: run
 Info: NativeLink simulation flow was successful

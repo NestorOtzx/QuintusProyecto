@@ -1,5 +1,5 @@
 Analysis & Synthesis report for juego_rondas
-Mon May 29 10:40:32 2023
+Mon May 29 13:13:45 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -35,14 +35,13 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  27. Parameter Settings for User Entity Instance: multiplexor6bits:inst13|LPM_MUX:LPM_MUX_component
  28. Parameter Settings for User Entity Instance: sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component
  29. Parameter Settings for User Entity Instance: multiplexor6bits:inst8|LPM_MUX:LPM_MUX_component
- 30. Parameter Settings for User Entity Instance: comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component
- 31. Parameter Settings for User Entity Instance: mux2_4:inst7|LPM_MUX:LPM_MUX_component
- 32. Parameter Settings for User Entity Instance: constante8:inst37|lpm_constant:LPM_CONSTANT_component
- 33. Parameter Settings for User Entity Instance: constante3:inst35|lpm_constant:LPM_CONSTANT_component
- 34. Parameter Settings for User Entity Instance: constante10:inst26|lpm_constant:LPM_CONSTANT_component
- 35. altsyncram Parameter Settings by Entity Instance
- 36. Elapsed Time Per Partition
- 37. Analysis & Synthesis Messages
+ 30. Parameter Settings for User Entity Instance: mux2_4:inst7|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: constante8:inst37|lpm_constant:LPM_CONSTANT_component
+ 32. Parameter Settings for User Entity Instance: constante3:inst35|lpm_constant:LPM_CONSTANT_component
+ 33. Parameter Settings for User Entity Instance: constante10:inst26|lpm_constant:LPM_CONSTANT_component
+ 34. altsyncram Parameter Settings by Entity Instance
+ 35. Elapsed Time Per Partition
+ 36. Analysis & Synthesis Messages
 
 
 
@@ -68,15 +67,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon May 29 10:40:32 2023           ;
+; Analysis & Synthesis Status        ; Successful - Mon May 29 13:13:45 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; juego_rondas                                    ;
 ; Top-level Entity Name              ; juego_rondas                                    ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 83                                              ;
-;     Total combinational functions  ; 80                                              ;
-;     Dedicated logic registers      ; 30                                              ;
-; Total registers                    ; 30                                              ;
+; Total logic elements               ; 68                                              ;
+;     Total combinational functions  ; 68                                              ;
+;     Dedicated logic registers      ; 21                                              ;
+; Total registers                    ; 21                                              ;
 ; Total pins                         ; 24                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 96                                              ;
@@ -242,7 +241,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/mux_83e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/modulos/juego_rondas/db/mux_83e.tdf            ;         ;
 ; sumador6_bits.vhd                ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/modulos/juego_rondas/sumador6_bits.vhd         ;         ;
 ; db/add_sub_akh.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/modulos/juego_rondas/db/add_sub_akh.tdf        ;         ;
-; recordador.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/quintus/QuintusProyecto/modulos/juego_rondas/recordador.bdf            ;         ;
 ; constante10.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/modulos/juego_rondas/constante10.vhd           ;         ;
 +----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------+---------+
 
@@ -252,29 +250,29 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 83    ;
+; Estimated Total logic elements              ; 68    ;
 ;                                             ;       ;
-; Total combinational functions               ; 80    ;
+; Total combinational functions               ; 68    ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 31    ;
-;     -- 3 input functions                    ; 21    ;
-;     -- <=2 input functions                  ; 28    ;
+;     -- 4 input functions                    ; 26    ;
+;     -- 3 input functions                    ; 16    ;
+;     -- <=2 input functions                  ; 26    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 53    ;
-;     -- arithmetic mode                      ; 27    ;
+;     -- normal mode                          ; 46    ;
+;     -- arithmetic mode                      ; 22    ;
 ;                                             ;       ;
-; Total registers                             ; 30    ;
-;     -- Dedicated logic registers            ; 30    ;
+; Total registers                             ; 21    ;
+;     -- Dedicated logic registers            ; 21    ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
 ; I/O pins                                    ; 24    ;
 ; Total memory bits                           ; 96    ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; reset ;
-; Maximum fan-out                             ; 45    ;
-; Total fan-out                               ; 386   ;
-; Average fan-out                             ; 2.76  ;
+; Maximum fan-out                             ; 37    ;
+; Total fan-out                               ; 320   ;
+; Average fan-out                             ; 2.69  ;
 +---------------------------------------------+-------+
 
 
@@ -283,13 +281,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                       ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------+--------------+
-; |juego_rondas                                ; 80 (2)            ; 30 (0)       ; 96          ; 0            ; 0       ; 0         ; 24   ; 0            ; |juego_rondas                                                                                             ; work         ;
+; |juego_rondas                                ; 68 (3)            ; 21 (0)       ; 96          ; 0            ; 0       ; 0         ; 24   ; 0            ; |juego_rondas                                                                                             ; work         ;
 ;    |comparadorPuntajes:inst21|               ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst21                                                                   ; work         ;
 ;       |lpm_compare:LPM_COMPARE_component|    ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst21|lpm_compare:LPM_COMPARE_component                                 ; work         ;
 ;          |cmpr_ikg:auto_generated|           ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst21|lpm_compare:LPM_COMPARE_component|cmpr_ikg:auto_generated         ; work         ;
-;    |comparadorPuntajes:inst39|               ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst39                                                                   ; work         ;
-;       |lpm_compare:LPM_COMPARE_component|    ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component                                 ; work         ;
-;          |cmpr_ikg:auto_generated|           ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component|cmpr_ikg:auto_generated         ; work         ;
 ;    |contador3bits:inst6|                     ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|contador3bits:inst6                                                                         ; work         ;
 ;       |lpm_counter:LPM_COUNTER_component|    ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|contador3bits:inst6|lpm_counter:LPM_COUNTER_component                                       ; work         ;
 ;          |cntr_p2i:auto_generated|           ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|contador3bits:inst6|lpm_counter:LPM_COUNTER_component|cntr_p2i:auto_generated               ; work         ;
@@ -309,20 +304,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |multiplexor6bits:inst13|                 ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst13                                                                     ; work         ;
 ;       |lpm_mux:LPM_MUX_component|            ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst13|lpm_mux:LPM_MUX_component                                           ; work         ;
 ;          |mux_83e:auto_generated|            ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst13|lpm_mux:LPM_MUX_component|mux_83e:auto_generated                    ; work         ;
-;    |multiplexor6bits:inst8|                  ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8                                                                      ; work         ;
-;       |lpm_mux:LPM_MUX_component|            ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8|lpm_mux:LPM_MUX_component                                            ; work         ;
-;          |mux_83e:auto_generated|            ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8|lpm_mux:LPM_MUX_component|mux_83e:auto_generated                     ; work         ;
+;    |multiplexor6bits:inst8|                  ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8                                                                      ; work         ;
+;       |lpm_mux:LPM_MUX_component|            ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8|lpm_mux:LPM_MUX_component                                            ; work         ;
+;          |mux_83e:auto_generated|            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|multiplexor6bits:inst8|lpm_mux:LPM_MUX_component|mux_83e:auto_generated                     ; work         ;
 ;    |mux2_4:inst14|                           ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst14                                                                               ; work         ;
 ;       |lpm_mux:LPM_MUX_component|            ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst14|lpm_mux:LPM_MUX_component                                                     ; work         ;
 ;          |mux_63e:auto_generated|            ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst14|lpm_mux:LPM_MUX_component|mux_63e:auto_generated                              ; work         ;
-;    |mux2_4:inst7|                            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7                                                                                ; work         ;
-;       |lpm_mux:LPM_MUX_component|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7|lpm_mux:LPM_MUX_component                                                      ; work         ;
-;          |mux_63e:auto_generated|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7|lpm_mux:LPM_MUX_component|mux_63e:auto_generated                               ; work         ;
+;    |mux2_4:inst7|                            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7                                                                                ; work         ;
+;       |lpm_mux:LPM_MUX_component|            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7|lpm_mux:LPM_MUX_component                                                      ; work         ;
+;          |mux_63e:auto_generated|            ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|mux2_4:inst7|lpm_mux:LPM_MUX_component|mux_63e:auto_generated                               ; work         ;
 ;    |ram:inst12|                              ; 0 (0)             ; 0 (0)        ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|ram:inst12                                                                                  ; work         ;
 ;       |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|ram:inst12|altsyncram:altsyncram_component                                                  ; work         ;
 ;          |altsyncram_lsc1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|ram:inst12|altsyncram:altsyncram_component|altsyncram_lsc1:auto_generated                   ; work         ;
-;    |recordador:inst38|                       ; 1 (1)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|recordador:inst38                                                                           ; work         ;
-;    |recordador:inst41|                       ; 4 (4)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|recordador:inst41                                                                           ; work         ;
 ;    |sumador6_bits:inst11|                    ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|sumador6_bits:inst11                                                                        ; work         ;
 ;       |lpm_add_sub:LPM_ADD_SUB_component|    ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component                                      ; work         ;
 ;          |add_sub_akh:auto_generated|        ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |juego_rondas|sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component|add_sub_akh:auto_generated           ; work         ;
@@ -364,7 +357,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |juego_rondas|contador6bits:inst29|counter:inst ; C:/quintus/QuintusProyecto/modulos/juego_rondas/counter.vhd            ;
 ; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |juego_rondas|constante3:inst35                 ; C:/quintus/QuintusProyecto/modulos/juego_rondas/constante3.vhd         ;
 ; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |juego_rondas|constante8:inst37                 ; C:/quintus/QuintusProyecto/modulos/juego_rondas/constante8.vhd         ;
-; Altera ; LPM_COMPARE  ; N/A     ; N/A          ; N/A          ; |juego_rondas|comparadorPuntajes:inst39         ; C:/quintus/QuintusProyecto/modulos/juego_rondas/comparadorpuntajes.vhd ;
 +--------+--------------+---------+--------------+--------------+-------------------------------------------------+------------------------------------------------------------------------+
 
 
@@ -412,16 +404,13 @@ Encoding Type:  One-Hot
 +------------------------------------------+--------------------------------------------------+
 ; Register name                            ; Reason for Removal                               ;
 +------------------------------------------+--------------------------------------------------+
-; recordador:inst41|inst                   ; Stuck at GND due to stuck port data_in           ;
-; recordador:inst41|inst1                  ; Stuck at GND due to stuck port data_in           ;
-; recordador:inst41|inst2                  ; Stuck at GND due to stuck port data_in           ;
 ; generadorPulsos:inst27|fstate.state3     ; Lost fanout                                      ;
 ; juegoPorRondas:inst25|fstate.inputRonda  ; Lost fanout                                      ;
 ; generadorPulsos:inst34|fstate.state3     ; Lost fanout                                      ;
 ; generadorPulsos:inst34|fstate.state2     ; Merged with generadorPulsos:inst27|fstate.state2 ;
 ; generadorPulsos:inst34|fstate.state1     ; Merged with generadorPulsos:inst27|fstate.state1 ;
 ; juegoPorRondas:inst25|fstate.inputRonda2 ; Stuck at GND due to stuck port data_in           ;
-; Total Number of Removed Registers = 9    ;                                                  ;
+; Total Number of Removed Registers = 6    ;                                                  ;
 +------------------------------------------+--------------------------------------------------+
 
 
@@ -430,10 +419,10 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 30    ;
+; Total registers                              ; 21    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 24    ;
+; Number of registers using Asynchronous Clear ; 15    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 2     ;
 ; Number of registers using Preset             ; 0     ;
@@ -788,30 +777,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component ;
-+------------------------+------------+--------------------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                               ;
-+------------------------+------------+--------------------------------------------------------------------+
-; lpm_width              ; 6          ; Signed Integer                                                     ;
-; LPM_REPRESENTATION     ; UNSIGNED   ; Untyped                                                            ;
-; LPM_PIPELINE           ; 0          ; Untyped                                                            ;
-; CHAIN_SIZE             ; 8          ; Untyped                                                            ;
-; ONE_INPUT_IS_CONSTANT  ; NO         ; Untyped                                                            ;
-; CARRY_CHAIN            ; MANUAL     ; Untyped                                                            ;
-; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                            ;
-; CARRY_CHAIN_LENGTH     ; 48         ; CARRY_CHAIN_LENGTH                                                 ;
-; CASCADE_CHAIN_LENGTH   ; 2          ; CASCADE_CHAIN_LENGTH                                               ;
-; DEVICE_FAMILY          ; Cyclone II ; Untyped                                                            ;
-; CBXI_PARAMETER         ; cmpr_ikg   ; Untyped                                                            ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                       ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                     ;
-+------------------------+------------+--------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mux2_4:inst7|LPM_MUX:LPM_MUX_component ;
 +------------------------+------------+-----------------------------------------------+
@@ -905,7 +870,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon May 29 10:40:29 2023
+    Info: Processing started: Mon May 29 13:13:43 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off juego_rondas -c juego_rondas
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file juego_rondas.bdf
@@ -917,6 +882,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file constan
     Info (12022): Found design unit 1: constante3-SYN
     Info (12023): Found entity 1: constante3
 Info (12127): Elaborating entity "juego_rondas" for the top level hierarchy
+Warning (275011): Block or symbol "contador6bits" of instance "inst" overlaps another block or symbol
 Warning (275011): Block or symbol "OR2" of instance "inst31" overlaps another block or symbol
 Warning (275080): Converted elements in bus name "ram" using legacy naming rules. Make any assignments on the new names, not on the original names.
     Warning (275081): Converted element name(s) from "ram[5..0]" to "ram5..0"
@@ -1105,9 +1071,6 @@ Info (12133): Instantiated megafunction "sumador6_bits:inst11|lpm_add_sub:LPM_AD
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_akh.tdf
     Info (12023): Found entity 1: add_sub_akh
 Info (12128): Elaborating entity "add_sub_akh" for hierarchy "sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component|add_sub_akh:auto_generated"
-Warning (12125): Using design file recordador.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: recordador
-Info (12128): Elaborating entity "recordador" for hierarchy "recordador:inst41"
 Info (12128): Elaborating entity "constante8" for hierarchy "constante8:inst37"
 Info (12128): Elaborating entity "lpm_constant" for hierarchy "constante8:inst37|lpm_constant:LPM_CONSTANT_component"
 Info (12130): Elaborated megafunction instantiation "constante8:inst37|lpm_constant:LPM_CONSTANT_component"
@@ -1140,15 +1103,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 120 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 99 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 20 output pins
-    Info (21061): Implemented 90 logic cells
+    Info (21061): Implemented 69 logic cells
     Info (21064): Implemented 6 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 29 warnings
-    Info: Peak virtual memory: 4656 megabytes
-    Info: Processing ended: Mon May 29 10:40:32 2023
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4648 megabytes
+    Info: Processing ended: Mon May 29 13:13:45 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 

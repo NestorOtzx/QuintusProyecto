@@ -1,5 +1,5 @@
 Flow report for guardar_ganador
-Mon May 29 11:13:17 2023
+Mon May 29 11:52:44 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,16 +40,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon May 29 11:13:17 2023           ;
+; Flow Status                        ; Successful - Mon May 29 11:52:44 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; guardar_ganador                                 ;
 ; Top-level Entity Name              ; guardar_ganador                                 ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 18 / 14,448 ( < 1 % )                           ;
-;     Total combinational functions  ; 18 / 14,448 ( < 1 % )                           ;
-;     Dedicated logic registers      ; 6 / 14,448 ( < 1 % )                            ;
-; Total registers                    ; 6                                               ;
-; Total pins                         ; 16 / 315 ( 5 % )                                ;
+; Total logic elements               ; 22 / 14,448 ( < 1 % )                           ;
+;     Total combinational functions  ; 19 / 14,448 ( < 1 % )                           ;
+;     Dedicated logic registers      ; 9 / 14,448 ( < 1 % )                            ;
+; Total registers                    ; 9                                               ;
+; Total pins                         ; 26 / 315 ( 8 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 239,616 ( 0 % )                             ;
 ; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
@@ -64,25 +64,25 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/29/2023 11:13:10 ;
+; Start date & time ; 05/29/2023 11:52:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; guardar_ganador     ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 176831337441310.168537679011860 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 929346721082.168537915910796 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --             ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -90,10 +90,10 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; Fitter               ; 00:00:04     ; 1.0                     ; 4838 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4507 MB             ; 00:00:00                           ;
-; Total                ; 00:00:06     ; --                      ; --                  ; 00:00:04                           ;
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; Fitter               ; 00:00:03     ; 1.0                     ; 4838 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4507 MB             ; 00:00:00                           ;
+; Total                ; 00:00:05     ; --                      ; --                  ; 00:00:04                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -102,9 +102,9 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter               ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; PC3324           ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; Simulacion18     ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter               ; Simulacion18     ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; Simulacion18     ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 

@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\quintus\QuintusProyecto\modulos\juego_rondas\simulation\modelsim
 Ejuego_rondas
-Z1 w1685374839
+Z1 w1685383032
 Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
 Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
 Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
@@ -16,12 +16,12 @@ Z9 8juego_rondas.vho
 Z10 Fjuego_rondas.vho
 l0
 L34
-VVgTEX;@SQhV9cfSRMaj?B3
-!s100 UEE4E_@16BEbKc=i4YUUk2
+VVWIc>`PI<nHfb>^W8T9^40
+!s100 0C64KGb`AM95PV@S0zPkS2
 Z11 OV;C;10.1d;51
 31
 !i10b 1
-Z12 !s108 1685374846.831000
+Z12 !s108 1685383039.230000
 Z13 !s90 -reportprogress|300|-93|-work|work|juego_rondas.vho|
 Z14 !s107 juego_rondas.vho|
 Z15 o-93 -work work -O0
@@ -33,11 +33,11 @@ R4
 R5
 R6
 R7
-DEx4 work 12 juego_rondas 0 22 VgTEX;@SQhV9cfSRMaj?B3
-l242
-L82
-VXXng5m<D?E22=OAKjgXj60
-!s100 Dfc8MO=UifBadeHU7H>D40
+DEx4 work 12 juego_rondas 0 22 VWIc>`PI<nHfb>^W8T9^40
+l266
+L94
+VVZEa0H6Ko?6@e@FoJ`MgG3
+!s100 FgJQO_YL8zk>E@@l_;RR43
 R11
 31
 !i10b 1

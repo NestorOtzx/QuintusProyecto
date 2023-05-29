@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asistente
-Sun May 28 22:34:50 2023
+Mon May 29 12:12:24 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -97,7 +97,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun May 28 22:34:50 2023           ;
+; Analysis & Synthesis Status        ; Successful - Mon May 29 12:12:24 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; asistente                                       ;
 ; Top-level Entity Name              ; asistente                                       ;
@@ -204,113 +204,113 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 6      ;
+; Number detected on machine ; 8      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                  ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------+---------+
-; mostrar_palabras.bdf             ; yes             ; User Block Diagram/Schematic File        ; E:/projects/quartus/asistente/asistentequartus2/mostrar_palabras.bdf          ;         ;
-; bin_palabra.bdf                  ; yes             ; User Block Diagram/Schematic File        ; E:/projects/quartus/asistente/asistentequartus2/bin_palabra.bdf               ;         ;
-; bin_a_display.bdf                ; yes             ; User Block Diagram/Schematic File        ; E:/projects/quartus/asistente/asistentequartus2/bin_a_display.bdf             ;         ;
-; asistente.bdf                    ; yes             ; User Block Diagram/Schematic File        ; E:/projects/quartus/asistente/asistentequartus2/asistente.bdf                 ;         ;
-; rom_palabras.vhd                 ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/rom_palabras.vhd              ;         ;
-; rom_letras.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd                ;         ;
-; decoder3_8.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/decoder3_8.vhd                ;         ;
-; constante3.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/constante3.vhd                ;         ;
-; contador4bits.vhd                ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd             ;         ;
-; contador.bdf                     ; yes             ; User Block Diagram/Schematic File        ; E:/projects/quartus/asistente/asistentequartus2/contador.bdf                  ;         ;
-; adder4bits.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd                ;         ;
-; constante5.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/constante5.vhd                ;         ;
-; constante7.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/constante7.vhd                ;         ;
-; mux3_6.vhd                       ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/mux3_6.vhd                    ;         ;
-; ram_asistente.hex                ; yes             ; User Hexadecimal (Intel-Format) File     ; E:/projects/quartus/asistente/asistentequartus2/ram_asistente.hex             ;         ;
-; ram.vhd                          ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/ram.vhd                       ;         ;
-; mux3_4.vhd                       ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/mux3_4.vhd                    ;         ;
-; mux1_4.vhd                       ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/mux1_4.vhd                    ;         ;
-; constante1.vhd                   ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/constante1.vhd                ;         ;
-; contador0_1.vhd                  ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/contador0_1.vhd               ;         ;
-; jug_actual_counter.vhd           ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/jug_actual_counter.vhd        ;         ;
-; num_jugs_compare.vhd             ; yes             ; User Wizard-Generated File               ; E:/projects/quartus/asistente/asistentequartus2/num_jugs_compare.vhd          ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/aglobal130.inc          ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
-; altrom.inc                       ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/altrom.inc              ;         ;
-; altram.inc                       ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/altram.inc              ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/altdpram.inc            ;         ;
-; db/altsyncram_f271.tdf           ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/altsyncram_f271.tdf        ;         ;
-; letras.hex                       ; yes             ; Auto-Found Memory Initialization File    ; E:/projects/quartus/asistente/asistentequartus2/letras.hex                    ;         ;
-; db/altsyncram_q971.tdf           ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/altsyncram_q971.tdf        ;         ;
-; palabras.hex                     ; yes             ; Auto-Found Memory Initialization File    ; E:/projects/quartus/asistente/asistentequartus2/palabras.hex                  ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/muxlut.inc              ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/bypassff.inc            ;         ;
-; altshift.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/altshift.inc            ;         ;
-; db/mux_83e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_83e.tdf                ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/dffeea.inc              ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
-; db/cntr_lkh.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cntr_lkh.tdf               ;         ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_decode.tdf          ;         ;
-; declut.inc                       ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/declut.inc              ;         ;
-; db/decode_s6f.tdf                ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/decode_s6f.tdf             ;         ;
-; db/cntr_o8j.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cntr_o8j.tdf               ;         ;
-; lpm_constant.tdf                 ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_constant.tdf        ;         ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
-; addcore.inc                      ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/addcore.inc             ;         ;
-; look_add.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/look_add.inc            ;         ;
-; alt_stratix_add_sub.inc          ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
-; db/add_sub_8kh.tdf               ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/add_sub_8kh.tdf            ;         ;
-; bloque_juego.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; E:/projects/quartus/asistente/asistentequartus2/bloque_juego.bdf              ;         ;
-; decoderjuego.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; E:/projects/quartus/asistente/asistentequartus2/decoderjuego.bdf              ;         ;
-; contador3bits.vhd                ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/contador3bits.vhd             ;         ;
-; db/cntr_4qg.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cntr_4qg.tdf               ;         ;
-; retenedor_de_primerpulso.vhd     ; yes             ; Auto-Found VHDL File                     ; E:/projects/quartus/asistente/asistentequartus2/retenedor_de_primerpulso.vhd  ;         ;
-; decoder2_4.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/decoder2_4.vhd                ;         ;
-; db/decode_uqf.tdf                ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/decode_uqf.tdf             ;         ;
-; statemachinedec.vhd              ; yes             ; Auto-Found VHDL File                     ; E:/projects/quartus/asistente/asistentequartus2/statemachinedec.vhd           ;         ;
-; comparadorpuntajes.vhd           ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/comparadorpuntajes.vhd        ;         ;
-; lpm_compare.tdf                  ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
-; comptree.inc                     ; yes             ; Megafunction                             ; e:/programas/quartus2/quartus/libraries/megafunctions/comptree.inc            ;         ;
-; db/cmpr_ikg.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cmpr_ikg.tdf               ;         ;
-; sumador6_bits.vhd                ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/sumador6_bits.vhd             ;         ;
-; db/add_sub_akh.tdf               ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/add_sub_akh.tdf            ;         ;
-; generadorpulsos.vhd              ; yes             ; Auto-Found VHDL File                     ; E:/projects/quartus/asistente/asistentequartus2/generadorpulsos.vhd           ;         ;
-; contador6bits.bdf                ; yes             ; Auto-Found Block Diagram/Schematic File  ; E:/projects/quartus/asistente/asistentequartus2/contador6bits.bdf             ;         ;
-; counter.vhd                      ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/counter.vhd                   ;         ;
-; db/cntr_s2i.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cntr_s2i.tdf               ;         ;
-; db/cmpr_bhg.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cmpr_bhg.tdf               ;         ;
-; db/cntr_q2i.tdf                  ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/cntr_q2i.tdf               ;         ;
-; multiplexor1bit.vhd              ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/multiplexor1bit.vhd           ;         ;
-; db/mux_43e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_43e.tdf                ;         ;
-; multiplexor6bits.vhd             ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/multiplexor6bits.vhd          ;         ;
-; db/mux_93e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_93e.tdf                ;         ;
-; mux2_4.vhd                       ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/mux2_4.vhd                    ;         ;
-; db/mux_63e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_63e.tdf                ;         ;
-; constante10.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/constante10.vhd               ;         ;
-; constante4.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/constante4.vhd                ;         ;
-; sumador7.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/sumador7.vhd                  ;         ;
-; db/add_sub_snh.tdf               ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/add_sub_snh.tdf            ;         ;
-; db/altsyncram_lsc1.tdf           ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/altsyncram_lsc1.tdf        ;         ;
-; db/mux_33e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_33e.tdf                ;         ;
-; db/mux_a3e.tdf                   ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/mux_a3e.tdf                ;         ;
-; 7seg6bits.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; E:/projects/quartus/asistente/asistentequartus2/7seg6bits.bdf                 ;         ;
-; romnumeros.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; E:/projects/quartus/asistente/asistentequartus2/romnumeros.vhd                ;         ;
-; db/altsyncram_na71.tdf           ; yes             ; Auto-Generated Megafunction              ; E:/projects/quartus/asistente/asistentequartus2/db/altsyncram_na71.tdf        ;         ;
-; 7seg6bits.hex                    ; yes             ; Auto-Found Memory Initialization File    ; E:/projects/quartus/asistente/asistentequartus2/7seg6bits.hex                 ;         ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                              ; Library ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------+---------+
+; mostrar_palabras.bdf             ; yes             ; User Block Diagram/Schematic File        ; C:/quintus/QuintusProyecto/asistentequartus2/mostrar_palabras.bdf         ;         ;
+; bin_palabra.bdf                  ; yes             ; User Block Diagram/Schematic File        ; C:/quintus/QuintusProyecto/asistentequartus2/bin_palabra.bdf              ;         ;
+; bin_a_display.bdf                ; yes             ; User Block Diagram/Schematic File        ; C:/quintus/QuintusProyecto/asistentequartus2/bin_a_display.bdf            ;         ;
+; asistente.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/quintus/QuintusProyecto/asistentequartus2/asistente.bdf                ;         ;
+; rom_palabras.vhd                 ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/rom_palabras.vhd             ;         ;
+; rom_letras.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/rom_letras.vhd               ;         ;
+; decoder3_8.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/decoder3_8.vhd               ;         ;
+; constante3.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/constante3.vhd               ;         ;
+; contador4bits.vhd                ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/contador4bits.vhd            ;         ;
+; contador.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/quintus/QuintusProyecto/asistentequartus2/contador.bdf                 ;         ;
+; adder4bits.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/adder4bits.vhd               ;         ;
+; constante5.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/constante5.vhd               ;         ;
+; constante7.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/constante7.vhd               ;         ;
+; mux3_6.vhd                       ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/mux3_6.vhd                   ;         ;
+; ram_asistente.hex                ; yes             ; User Hexadecimal (Intel-Format) File     ; C:/quintus/QuintusProyecto/asistentequartus2/ram_asistente.hex            ;         ;
+; ram.vhd                          ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/ram.vhd                      ;         ;
+; mux3_4.vhd                       ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/mux3_4.vhd                   ;         ;
+; mux1_4.vhd                       ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/mux1_4.vhd                   ;         ;
+; constante1.vhd                   ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/constante1.vhd               ;         ;
+; contador0_1.vhd                  ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/contador0_1.vhd              ;         ;
+; jug_actual_counter.vhd           ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/jug_actual_counter.vhd       ;         ;
+; num_jugs_compare.vhd             ; yes             ; User Wizard-Generated File               ; C:/quintus/QuintusProyecto/asistentequartus2/num_jugs_compare.vhd         ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc          ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
+; altrom.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc              ;         ;
+; altram.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc              ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc            ;         ;
+; db/altsyncram_f271.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/altsyncram_f271.tdf       ;         ;
+; letras.hex                       ; yes             ; Auto-Found Memory Initialization File    ; C:/quintus/QuintusProyecto/asistentequartus2/letras.hex                   ;         ;
+; db/altsyncram_q971.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/altsyncram_q971.tdf       ;         ;
+; palabras.hex                     ; yes             ; Auto-Found Memory Initialization File    ; C:/quintus/QuintusProyecto/asistentequartus2/palabras.hex                 ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/muxlut.inc              ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc            ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc            ;         ;
+; db/mux_83e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_83e.tdf               ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/dffeea.inc              ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
+; db/cntr_lkh.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cntr_lkh.tdf              ;         ;
+; lpm_decode.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.tdf          ;         ;
+; declut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/declut.inc              ;         ;
+; db/decode_s6f.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/decode_s6f.tdf            ;         ;
+; db/cntr_o8j.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cntr_o8j.tdf              ;         ;
+; lpm_constant.tdf                 ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.tdf        ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
+; addcore.inc                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc             ;         ;
+; look_add.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc            ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
+; db/add_sub_8kh.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/add_sub_8kh.tdf           ;         ;
+; bloque_juego.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/quintus/QuintusProyecto/asistentequartus2/bloque_juego.bdf             ;         ;
+; decoderjuego.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/quintus/QuintusProyecto/asistentequartus2/decoderjuego.bdf             ;         ;
+; contador3bits.vhd                ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/contador3bits.vhd            ;         ;
+; db/cntr_4qg.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cntr_4qg.tdf              ;         ;
+; retenedor_de_primerpulso.vhd     ; yes             ; Auto-Found VHDL File                     ; C:/quintus/QuintusProyecto/asistentequartus2/retenedor_de_primerpulso.vhd ;         ;
+; decoder2_4.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/decoder2_4.vhd               ;         ;
+; db/decode_uqf.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/decode_uqf.tdf            ;         ;
+; statemachinedec.vhd              ; yes             ; Auto-Found VHDL File                     ; C:/quintus/QuintusProyecto/asistentequartus2/statemachinedec.vhd          ;         ;
+; comparadorpuntajes.vhd           ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/comparadorpuntajes.vhd       ;         ;
+; lpm_compare.tdf                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
+; comptree.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/comptree.inc            ;         ;
+; db/cmpr_ikg.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cmpr_ikg.tdf              ;         ;
+; sumador6_bits.vhd                ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/sumador6_bits.vhd            ;         ;
+; db/add_sub_akh.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/add_sub_akh.tdf           ;         ;
+; generadorpulsos.vhd              ; yes             ; Auto-Found VHDL File                     ; C:/quintus/QuintusProyecto/asistentequartus2/generadorpulsos.vhd          ;         ;
+; contador6bits.bdf                ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/quintus/QuintusProyecto/asistentequartus2/contador6bits.bdf            ;         ;
+; counter.vhd                      ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/counter.vhd                  ;         ;
+; db/cntr_s2i.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cntr_s2i.tdf              ;         ;
+; db/cmpr_bhg.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cmpr_bhg.tdf              ;         ;
+; db/cntr_q2i.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/cntr_q2i.tdf              ;         ;
+; multiplexor1bit.vhd              ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/multiplexor1bit.vhd          ;         ;
+; db/mux_43e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_43e.tdf               ;         ;
+; multiplexor6bits.vhd             ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/multiplexor6bits.vhd         ;         ;
+; db/mux_93e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_93e.tdf               ;         ;
+; mux2_4.vhd                       ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/mux2_4.vhd                   ;         ;
+; db/mux_63e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_63e.tdf               ;         ;
+; constante10.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/constante10.vhd              ;         ;
+; constante4.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/constante4.vhd               ;         ;
+; sumador7.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/sumador7.vhd                 ;         ;
+; db/add_sub_snh.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/add_sub_snh.tdf           ;         ;
+; db/altsyncram_lsc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/altsyncram_lsc1.tdf       ;         ;
+; db/mux_33e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_33e.tdf               ;         ;
+; db/mux_a3e.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/mux_a3e.tdf               ;         ;
+; 7seg6bits.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/quintus/QuintusProyecto/asistentequartus2/7seg6bits.bdf                ;         ;
+; romnumeros.vhd                   ; yes             ; Auto-Found Wizard-Generated File         ; C:/quintus/QuintusProyecto/asistentequartus2/romnumeros.vhd               ;         ;
+; db/altsyncram_na71.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/quintus/QuintusProyecto/asistentequartus2/db/altsyncram_na71.tdf       ;         ;
+; 7seg6bits.hex                    ; yes             ; Auto-Found Memory Initialization File    ; C:/quintus/QuintusProyecto/asistentequartus2/7seg6bits.hex                ;         ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -460,52 +460,52 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+-------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                     ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+------------------------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                  ; IP Include File                                                        ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+------------------------------------------------------------------------+
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst              ; E:/projects/quartus/asistente/asistentequartus2/rom_palabras.vhd       ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst             ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd         ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst             ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd         ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst             ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd         ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst             ; E:/projects/quartus/asistente/asistentequartus2/rom_letras.vhd         ;
-; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst1                                                      ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd         ;
-; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst2                                                      ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd         ;
-; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|contador6bits:inst|counter:inst ; E:/projects/quartus/asistente/asistentequartus2/counter.vhd            ;
-; Altera ; LPM_DECODE   ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|decoder2_4:inst2                ; E:/projects/quartus/asistente/asistentequartus2/decoder2_4.vhd         ;
-; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante7:inst4                ; E:/projects/quartus/asistente/asistentequartus2/constante7.vhd         ;
-; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|contador3bits:inst6             ; E:/projects/quartus/asistente/asistentequartus2/contador3bits.vhd      ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst7                    ; E:/projects/quartus/asistente/asistentequartus2/mux2_4.vhd             ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst8          ; E:/projects/quartus/asistente/asistentequartus2/multiplexor6bits.vhd   ;
-; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|sumador6_bits:inst11            ; E:/projects/quartus/asistente/asistentequartus2/sumador6_bits.vhd      ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst13         ; E:/projects/quartus/asistente/asistentequartus2/multiplexor6bits.vhd   ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst14                   ; E:/projects/quartus/asistente/asistentequartus2/mux2_4.vhd             ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor1bit:inst15          ; E:/projects/quartus/asistente/asistentequartus2/multiplexor1bit.vhd    ;
-; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|sumador7:inst16                 ; E:/projects/quartus/asistente/asistentequartus2/sumador7.vhd           ;
-; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante4:inst17               ; E:/projects/quartus/asistente/asistentequartus2/constante4.vhd         ;
-; Altera ; LPM_COMPARE  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|comparadorPuntajes:inst21       ; E:/projects/quartus/asistente/asistentequartus2/comparadorpuntajes.vhd ;
-; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante10:inst26              ; E:/projects/quartus/asistente/asistentequartus2/constante10.vhd        ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|jug_actual_counter:inst29       ; E:/projects/quartus/asistente/asistentequartus2/jug_actual_counter.vhd ;
-; Altera ; LPM_COMPARE  ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|num_jugs_compare:inst33         ; E:/projects/quartus/asistente/asistentequartus2/num_jugs_compare.vhd   ;
-; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |asistente|ram:inst4                                                             ; E:/projects/quartus/asistente/asistentequartus2/ram.vhd                ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst5|contador4bits:inst                                     ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd      ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|7seg6bits:inst6|romNumeros:inst                                       ; E:/projects/quartus/asistente/asistentequartus2/romnumeros.vhd         ;
-; Altera ; LPM_DECODE   ; 13.0    ; N/A          ; N/A          ; |asistente|decoder3_8:inst8                                                      ; E:/projects/quartus/asistente/asistentequartus2/decoder3_8.vhd         ;
-; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante3:inst10                                                     ; E:/projects/quartus/asistente/asistentequartus2/constante3.vhd         ;
-; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_4:inst11                                                         ; E:/projects/quartus/asistente/asistentequartus2/mux3_4.vhd             ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst12                                                    ; E:/projects/quartus/asistente/asistentequartus2/contador0_1.vhd        ;
-; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_6:inst14                                                         ; E:/projects/quartus/asistente/asistentequartus2/mux3_6.vhd             ;
-; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux1_4:inst15                                                         ; E:/projects/quartus/asistente/asistentequartus2/mux1_4.vhd             ;
-; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante5:inst16                                                     ; E:/projects/quartus/asistente/asistentequartus2/constante5.vhd         ;
-; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante7:inst17                                                     ; E:/projects/quartus/asistente/asistentequartus2/constante7.vhd         ;
-; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst19                                                     ; E:/projects/quartus/asistente/asistentequartus2/adder4bits.vhd         ;
-; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante1:inst20                                                     ; E:/projects/quartus/asistente/asistentequartus2/constante1.vhd         ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst22                                                    ; E:/projects/quartus/asistente/asistentequartus2/contador0_1.vhd        ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst24|contador4bits:inst                                    ; E:/projects/quartus/asistente/asistentequartus2/contador4bits.vhd      ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst25                                                    ; E:/projects/quartus/asistente/asistentequartus2/contador0_1.vhd        ;
-; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_6:inst28                                                         ; E:/projects/quartus/asistente/asistentequartus2/mux3_6.vhd             ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                  ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                  ; IP Include File                                                     ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------+
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst              ; C:/quintus/QuintusProyecto/asistentequartus2/rom_palabras.vhd       ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst             ; C:/quintus/QuintusProyecto/asistentequartus2/rom_letras.vhd         ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst             ; C:/quintus/QuintusProyecto/asistentequartus2/rom_letras.vhd         ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst             ; C:/quintus/QuintusProyecto/asistentequartus2/rom_letras.vhd         ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst             ; C:/quintus/QuintusProyecto/asistentequartus2/rom_letras.vhd         ;
+; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst1                                                      ; C:/quintus/QuintusProyecto/asistentequartus2/adder4bits.vhd         ;
+; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst2                                                      ; C:/quintus/QuintusProyecto/asistentequartus2/adder4bits.vhd         ;
+; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|contador6bits:inst|counter:inst ; C:/quintus/QuintusProyecto/asistentequartus2/counter.vhd            ;
+; Altera ; LPM_DECODE   ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|decoder2_4:inst2                ; C:/quintus/QuintusProyecto/asistentequartus2/decoder2_4.vhd         ;
+; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante7:inst4                ; C:/quintus/QuintusProyecto/asistentequartus2/constante7.vhd         ;
+; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|contador3bits:inst6             ; C:/quintus/QuintusProyecto/asistentequartus2/contador3bits.vhd      ;
+; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst7                    ; C:/quintus/QuintusProyecto/asistentequartus2/mux2_4.vhd             ;
+; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst8          ; C:/quintus/QuintusProyecto/asistentequartus2/multiplexor6bits.vhd   ;
+; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|sumador6_bits:inst11            ; C:/quintus/QuintusProyecto/asistentequartus2/sumador6_bits.vhd      ;
+; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst13         ; C:/quintus/QuintusProyecto/asistentequartus2/multiplexor6bits.vhd   ;
+; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst14                   ; C:/quintus/QuintusProyecto/asistentequartus2/mux2_4.vhd             ;
+; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor1bit:inst15          ; C:/quintus/QuintusProyecto/asistentequartus2/multiplexor1bit.vhd    ;
+; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|sumador7:inst16                 ; C:/quintus/QuintusProyecto/asistentequartus2/sumador7.vhd           ;
+; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante4:inst17               ; C:/quintus/QuintusProyecto/asistentequartus2/constante4.vhd         ;
+; Altera ; LPM_COMPARE  ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|comparadorPuntajes:inst21       ; C:/quintus/QuintusProyecto/asistentequartus2/comparadorpuntajes.vhd ;
+; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|constante10:inst26              ; C:/quintus/QuintusProyecto/asistentequartus2/constante10.vhd        ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|jug_actual_counter:inst29       ; C:/quintus/QuintusProyecto/asistentequartus2/jug_actual_counter.vhd ;
+; Altera ; LPM_COMPARE  ; 13.0    ; N/A          ; N/A          ; |asistente|bloque_juego:inst3|decoderJuego:inst2|num_jugs_compare:inst33         ; C:/quintus/QuintusProyecto/asistentequartus2/num_jugs_compare.vhd   ;
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |asistente|ram:inst4                                                             ; C:/quintus/QuintusProyecto/asistentequartus2/ram.vhd                ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst5|contador4bits:inst                                     ; C:/quintus/QuintusProyecto/asistentequartus2/contador4bits.vhd      ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |asistente|7seg6bits:inst6|romNumeros:inst                                       ; C:/quintus/QuintusProyecto/asistentequartus2/romnumeros.vhd         ;
+; Altera ; LPM_DECODE   ; 13.0    ; N/A          ; N/A          ; |asistente|decoder3_8:inst8                                                      ; C:/quintus/QuintusProyecto/asistentequartus2/decoder3_8.vhd         ;
+; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante3:inst10                                                     ; C:/quintus/QuintusProyecto/asistentequartus2/constante3.vhd         ;
+; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_4:inst11                                                         ; C:/quintus/QuintusProyecto/asistentequartus2/mux3_4.vhd             ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst12                                                    ; C:/quintus/QuintusProyecto/asistentequartus2/contador0_1.vhd        ;
+; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_6:inst14                                                         ; C:/quintus/QuintusProyecto/asistentequartus2/mux3_6.vhd             ;
+; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux1_4:inst15                                                         ; C:/quintus/QuintusProyecto/asistentequartus2/mux1_4.vhd             ;
+; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante5:inst16                                                     ; C:/quintus/QuintusProyecto/asistentequartus2/constante5.vhd         ;
+; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante7:inst17                                                     ; C:/quintus/QuintusProyecto/asistentequartus2/constante7.vhd         ;
+; Altera ; LPM_ADD_SUB  ; 13.0    ; N/A          ; N/A          ; |asistente|adder4bits:inst19                                                     ; C:/quintus/QuintusProyecto/asistentequartus2/adder4bits.vhd         ;
+; Altera ; LPM_CONSTANT ; 13.0    ; N/A          ; N/A          ; |asistente|constante1:inst20                                                     ; C:/quintus/QuintusProyecto/asistentequartus2/constante1.vhd         ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst22                                                    ; C:/quintus/QuintusProyecto/asistentequartus2/contador0_1.vhd        ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador:inst24|contador4bits:inst                                    ; C:/quintus/QuintusProyecto/asistentequartus2/contador4bits.vhd      ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |asistente|contador0_1:inst25                                                    ; C:/quintus/QuintusProyecto/asistentequartus2/contador0_1.vhd        ;
+; Altera ; LPM_MUX      ; 13.0    ; N/A          ; N/A          ; |asistente|mux3_6:inst28                                                         ; C:/quintus/QuintusProyecto/asistentequartus2/mux3_6.vhd             ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -1901,7 +1901,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun May 28 22:34:46 2023
+    Info: Processing started: Mon May 29 12:12:20 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asistente -c asistente
 Warning (125092): Tcl Script File decoder4_16.qip not found
     Info (125063): set_global_assignment -name QIP_FILE decoder4_16.qip
@@ -2403,9 +2403,9 @@ Info (21057): Implemented 231 device resources after synthesis - the final resou
     Info (21061): Implemented 119 logic cells
     Info (21064): Implemented 64 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 4666 megabytes
-    Info: Processing ended: Sun May 28 22:34:50 2023
+    Info: Peak virtual memory: 4669 megabytes
+    Info: Processing ended: Mon May 29 12:12:24 2023
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 
