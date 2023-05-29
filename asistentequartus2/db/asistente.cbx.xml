@@ -1,35 +1,42 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="asistente">
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|divisor_frecuencia:inst4|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_tai.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|decoder3_8:inst8|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst7|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux1_4:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_33e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|ram:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lsc1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst2|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|mux2_4:inst7|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|mux2_6:inst5|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_93e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|constante10:inst26|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_nf6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante7:inst17|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst13|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst3|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux4_4:inst23|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_83e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|adder4bits:inst1|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_8kh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoder2_4:inst|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_uqf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|mux2_4:inst8|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|mux2_6:inst6|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_93e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|contador3bits:inst6|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p2i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|decoder2_4:inst2|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_uqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst13|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_93e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|sumador7:inst16|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_snh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst5|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst4|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux3_6:inst14|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_a3e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|adder4bits:inst19|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_8kh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|adder4bits:inst2|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_8kh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|ram:ram_de_prueba|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lsc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|constante7:inst4|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|contador6bits:inst|counter:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_s2i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst24|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst6|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_a_display:inst5|rom_letras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|constante4:inst17|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_ae6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor1bit:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_43e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador0_1:inst12|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_lkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|mux2_4:inst14|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_akh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante1:inst20|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador0_1:inst22|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_lkh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux3_4:inst11|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_83e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|multiplexor6bits:inst8|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_93e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante3:inst10|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_9e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|constante5:inst16|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_be6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador:inst9|contador4bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_o8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mostrar_palabras:inst|bin_palabra:inst|rom_palabras:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q971.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|decoder3_8:inst8|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|mux3_6:inst28|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_a3e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|ram:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lsc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|bloque_juego:inst3|decoderJuego:inst2|comparadorPuntajes:inst21|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_ikg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|asistente|contador0_1:inst25|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_lkh.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

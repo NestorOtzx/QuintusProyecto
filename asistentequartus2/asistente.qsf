@@ -79,4 +79,6 @@ set_global_assignment -name QIP_FILE contador_jug.qip
 set_global_assignment -name QIP_FILE constante1.qip
 set_global_assignment -name HEX_FILE borrar.hex
 set_global_assignment -name QIP_FILE romnumerosborrar.qip
+set_global_assignment -name QIP_FILE contador0_1.qip
+set_global_assignment -name SMF_FILE retenedor_de_primerpulso.smf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
