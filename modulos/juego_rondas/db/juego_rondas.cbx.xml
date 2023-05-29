@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="juego_rondas">
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|mux2_4:inst14|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|sumador6_bits:inst11|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_akh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante8:inst37|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_ee6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|contador3bits:inst6|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p2i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|contador6bits:inst29|counter:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_s2i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|decoder2_4:inst2|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_uqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|multiplexor6bits:inst13|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_83e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|multiplexor6bits:inst8|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_83e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|sumador7:inst16|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_snh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante3:inst35|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_9e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|contador6bits:inst|counter:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_s2i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|mux2_4:inst7|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_63e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|comparadorPuntajes:inst21|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_ikg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante4:inst17|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_ae6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|multiplexor1bit:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_33e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|ram:inst12|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lsc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|comparadorPuntajes:inst39|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_ikg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|juego_rondas|constante10:inst26|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_nf6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

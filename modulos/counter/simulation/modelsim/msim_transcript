@@ -1,0 +1,152 @@
+# Reading E:/Programas/quartus2/modelsim_ase/tcl/vsim/pref.tcl 
+# do counter_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\Programas\quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {counter.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity decoderJuego
+# -- Compiling architecture structure of decoderJuego
+# 
+vsim work.decoderjuego
+# vsim work.decoderjuego 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.decoderjuego(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+add wave -position end  sim:/decoderjuego/ram5
+add wave -position end  sim:/decoderjuego/reset
+add wave -position end  sim:/decoderjuego/clk
+add wave -position end  sim:/decoderjuego/siguiente
+add wave -position end  sim:/decoderjuego/aceptar
+add wave -position end  sim:/decoderjuego/ram4
+add wave -position end  sim:/decoderjuego/ram3
+add wave -position end  sim:/decoderjuego/ram2
+add wave -position end  sim:/decoderjuego/ram1
+add wave -position end  sim:/decoderjuego/ram0
+add wave -position end  sim:/decoderjuego/jug2
+add wave -position end  sim:/decoderjuego/jug1
+add wave -position end  sim:/decoderjuego/jug0
+add wave -position end  sim:/decoderjuego/numeros
+add wave -position end  sim:/decoderjuego/palabras
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: itsre  Hostname: DESKTOP-LDL5N1P  ProcessID: 5784
+# 
+#           Attempting to use alternate WLF file "./wlftce7z61".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftce7z61
+# 
+force -freeze sim:/decoderjuego/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+noforce sim:/decoderjuego/reset
+noforce sim:/decoderjuego/siguiente
+noforce sim:/decoderjuego/aceptar
+force -freeze sim:/decoderjuego/reset 0 0
+force -freeze sim:/decoderjuego/siguiente 0 0
+force -freeze sim:/decoderjuego/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/decoderjuego/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/decoderjuego/reset 0 0
+force -freeze sim:/decoderjuego/siguiente 0 0
+force -freeze sim:/decoderjuego/aceptar 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/siguiente 1 0
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/siguiente 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/aceptar 1 0
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/aceptar 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/aceptar 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/aceptar 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/decoderjuego/siguiente 1 0
+run
+run
+run
+run
+run
+run
+run
+run

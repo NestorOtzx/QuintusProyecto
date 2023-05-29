@@ -1,0 +1,17 @@
+|recordador
+q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+write => instand.IN0
+clk => instand.IN1
+a => inst.DATAIN
+q4 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+b => inst1.DATAIN
+q3 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c => inst2.DATAIN
+q2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d => inst3.DATAIN
+q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+e => inst4.DATAIN
+q0 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+f => inst5.DATAIN
+
+

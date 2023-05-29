@@ -1,0 +1,176 @@
+|guardar_ganador
+mayor_o_igual <= comparadorPuntajes:inst4.ageb
+punt_actual[0] => comparadorPuntajes:inst4.dataa[0]
+punt_actual[1] => comparadorPuntajes:inst4.dataa[1]
+punt_actual[2] => comparadorPuntajes:inst4.dataa[2]
+punt_actual[3] => comparadorPuntajes:inst4.dataa[3]
+punt_actual[4] => comparadorPuntajes:inst4.dataa[4]
+punt_actual[5] => comparadorPuntajes:inst4.dataa[5]
+pulso => inst2.IN1
+enable => contador6bits:inst.enable
+clr => contador6bits:inst.clr
+mejor_puntaje[0] <= contador6bits:inst.out[0]
+mejor_puntaje[1] <= contador6bits:inst.out[1]
+mejor_puntaje[2] <= contador6bits:inst.out[2]
+mejor_puntaje[3] <= contador6bits:inst.out[3]
+mejor_puntaje[4] <= contador6bits:inst.out[4]
+mejor_puntaje[5] <= contador6bits:inst.out[5]
+
+
+|guardar_ganador|comparadorPuntajes:inst4
+dataa[0] => lpm_compare:LPM_COMPARE_component.dataa[0]
+dataa[1] => lpm_compare:LPM_COMPARE_component.dataa[1]
+dataa[2] => lpm_compare:LPM_COMPARE_component.dataa[2]
+dataa[3] => lpm_compare:LPM_COMPARE_component.dataa[3]
+dataa[4] => lpm_compare:LPM_COMPARE_component.dataa[4]
+dataa[5] => lpm_compare:LPM_COMPARE_component.dataa[5]
+datab[0] => lpm_compare:LPM_COMPARE_component.datab[0]
+datab[1] => lpm_compare:LPM_COMPARE_component.datab[1]
+datab[2] => lpm_compare:LPM_COMPARE_component.datab[2]
+datab[3] => lpm_compare:LPM_COMPARE_component.datab[3]
+datab[4] => lpm_compare:LPM_COMPARE_component.datab[4]
+datab[5] => lpm_compare:LPM_COMPARE_component.datab[5]
+ageb <= lpm_compare:LPM_COMPARE_component.ageb
+
+
+|guardar_ganador|comparadorPuntajes:inst4|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_ikg:auto_generated.dataa[0]
+dataa[1] => cmpr_ikg:auto_generated.dataa[1]
+dataa[2] => cmpr_ikg:auto_generated.dataa[2]
+dataa[3] => cmpr_ikg:auto_generated.dataa[3]
+dataa[4] => cmpr_ikg:auto_generated.dataa[4]
+dataa[5] => cmpr_ikg:auto_generated.dataa[5]
+datab[0] => cmpr_ikg:auto_generated.datab[0]
+datab[1] => cmpr_ikg:auto_generated.datab[1]
+datab[2] => cmpr_ikg:auto_generated.datab[2]
+datab[3] => cmpr_ikg:auto_generated.datab[3]
+datab[4] => cmpr_ikg:auto_generated.datab[4]
+datab[5] => cmpr_ikg:auto_generated.datab[5]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= <GND>
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= cmpr_ikg:auto_generated.ageb
+
+
+|guardar_ganador|comparadorPuntajes:inst4|lpm_compare:LPM_COMPARE_component|cmpr_ikg:auto_generated
+ageb <= ageb.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _.IN0
+dataa[0] => op_1.IN12
+dataa[1] => _.IN0
+dataa[1] => op_1.IN10
+dataa[2] => _.IN0
+dataa[2] => op_1.IN8
+dataa[3] => _.IN0
+dataa[3] => op_1.IN6
+dataa[4] => _.IN0
+dataa[4] => op_1.IN4
+dataa[5] => _.IN0
+dataa[5] => op_1.IN2
+datab[0] => _.IN1
+datab[0] => op_1.IN11
+datab[1] => _.IN1
+datab[1] => op_1.IN9
+datab[2] => _.IN1
+datab[2] => op_1.IN7
+datab[3] => _.IN1
+datab[3] => op_1.IN5
+datab[4] => _.IN1
+datab[4] => op_1.IN3
+datab[5] => _.IN1
+datab[5] => op_1.IN1
+
+
+|guardar_ganador|contador6bits:inst
+out[0] <= counter:inst.q[0]
+out[1] <= counter:inst.q[1]
+out[2] <= counter:inst.q[2]
+out[3] <= counter:inst.q[3]
+out[4] <= counter:inst.q[4]
+out[5] <= counter:inst.q[5]
+siguiente => inst5.IN0
+enable => inst5.IN1
+clr => counter:inst.aclr
+
+
+|guardar_ganador|contador6bits:inst|counter:inst
+aclr => lpm_counter:LPM_COUNTER_component.aclr
+clock => lpm_counter:LPM_COUNTER_component.clock
+q[0] <= lpm_counter:LPM_COUNTER_component.q[0]
+q[1] <= lpm_counter:LPM_COUNTER_component.q[1]
+q[2] <= lpm_counter:LPM_COUNTER_component.q[2]
+q[3] <= lpm_counter:LPM_COUNTER_component.q[3]
+q[4] <= lpm_counter:LPM_COUNTER_component.q[4]
+q[5] <= lpm_counter:LPM_COUNTER_component.q[5]
+
+
+|guardar_ganador|contador6bits:inst|counter:inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_s2i:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_s2i:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_s2i:auto_generated.q[0]
+q[1] <= cntr_s2i:auto_generated.q[1]
+q[2] <= cntr_s2i:auto_generated.q[2]
+q[3] <= cntr_s2i:auto_generated.q[3]
+q[4] <= cntr_s2i:auto_generated.q[4]
+q[5] <= cntr_s2i:auto_generated.q[5]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|guardar_ganador|contador6bits:inst|counter:inst|lpm_counter:LPM_COUNTER_component|cntr_s2i:auto_generated
+aclr => counter_reg_bit1a[5].ACLR
+aclr => counter_reg_bit1a[4].ACLR
+aclr => counter_reg_bit1a[3].ACLR
+aclr => counter_reg_bit1a[2].ACLR
+aclr => counter_reg_bit1a[1].ACLR
+aclr => counter_reg_bit1a[0].ACLR
+clock => counter_reg_bit1a[5].CLK
+clock => counter_reg_bit1a[4].CLK
+clock => counter_reg_bit1a[3].CLK
+clock => counter_reg_bit1a[2].CLK
+clock => counter_reg_bit1a[1].CLK
+clock => counter_reg_bit1a[0].CLK
+q[0] <= counter_reg_bit1a[0].REGOUT
+q[1] <= counter_reg_bit1a[1].REGOUT
+q[2] <= counter_reg_bit1a[2].REGOUT
+q[3] <= counter_reg_bit1a[3].REGOUT
+q[4] <= counter_reg_bit1a[4].REGOUT
+q[5] <= counter_reg_bit1a[5].REGOUT
+
+

@@ -1,0 +1,21 @@
+
+State Machine - |juego_rondas|generadorPulsos:inst27|fstate
+Name fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 
+fstate.state2 0 1 1 
+fstate.state3 1 0 1 
+
+State Machine - |juego_rondas|juegoPorRondas:inst25|fstate
+Name fstate.inputRonda2 fstate.registrarGanadores fstate.avisoRonda2 fstate.inputRonda fstate.avisoRonda fstate.rondas 
+fstate.rondas 0 0 0 0 0 0 
+fstate.avisoRonda 0 0 0 0 1 1 
+fstate.inputRonda 0 0 0 1 0 1 
+fstate.avisoRonda2 0 0 1 0 0 1 
+fstate.registrarGanadores 0 1 0 0 0 1 
+fstate.inputRonda2 1 0 0 0 0 1 
+
+State Machine - |juego_rondas|generadorPulsos:inst34|fstate
+Name fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 
+fstate.state2 0 1 1 
+fstate.state3 1 0 1 

@@ -1,0 +1,21 @@
+
+State Machine - |decoderJuego|generadorPulsos:inst27|fstate
+Name fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 
+fstate.state2 0 1 1 
+fstate.state3 1 0 1 
+
+State Machine - |decoderJuego|stateMachineDec:inst3|fstate
+Name fstate.inputPtos fstate.registroPtos fstate.ptosJugadores fstate.inputRonda fstate.avisoRonda fstate.ptosGanar 
+fstate.ptosGanar 0 0 0 0 0 0 
+fstate.avisoRonda 0 0 0 0 1 1 
+fstate.inputRonda 0 0 0 1 0 1 
+fstate.ptosJugadores 0 0 1 0 0 1 
+fstate.registroPtos 0 1 0 0 0 1 
+fstate.inputPtos 1 0 0 0 0 1 
+
+State Machine - |decoderJuego|generadorPulsos:inst34|fstate
+Name fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 
+fstate.state2 0 1 1 
+fstate.state3 1 0 1 
