@@ -1,17 +1,17 @@
-Fitter Status : Successful - Sat May 27 17:47:38 2023
-Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Fitter Status : Successful - Mon May 29 16:20:25 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : asistente
 Top-level Entity Name : asistente
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 34 / 49,760 ( < 1 % )
-    Total combinational functions : 34 / 49,760 ( < 1 % )
-    Dedicated logic registers : 16 / 49,760 ( < 1 % )
-Total registers : 16
-Total pins : 31 / 360 ( 9 % )
+Total logic elements : 198 / 49,760 ( < 1 % )
+    Total combinational functions : 196 / 49,760 ( < 1 % )
+    Dedicated logic registers : 56 / 49,760 ( < 1 % )
+Total registers : 56
+Total pins : 48 / 360 ( 13 % )
 Total virtual pins : 0
-Total memory bits : 704 / 1,677,312 ( < 1 % )
+Total memory bits : 1,696 / 1,677,312 ( < 1 % )
 Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )
 UFM blocks : 0 / 1 ( 0 % )

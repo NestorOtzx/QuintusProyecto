@@ -116,6 +116,74 @@
 					"strict" : false
 				},
 				{
+					"name" : "disp1_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_2",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp1_6",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_0",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_1",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_3",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_4",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_6",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_5",
+					"strict" : false
+				},
+				{
+					"name" : "disp0_2",
+					"strict" : false
+				},
+				{
+					"name" : "jug2",
+					"strict" : false
+				},
+				{
+					"name" : "jug1",
+					"strict" : false
+				},
+				{
+					"name" : "jug0",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},

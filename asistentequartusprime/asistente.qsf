@@ -41,7 +41,7 @@ set_global_assignment -name DEVICE 10M50DAF484C7G
 set_global_assignment -name TOP_LEVEL_ENTITY asistente
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:21:02  MAY 23, 2023"
-set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.1 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
@@ -117,8 +117,21 @@ set_location_assignment PIN_N18 -to disp5_3
 set_location_assignment PIN_M20 -to disp5_4
 set_location_assignment PIN_N19 -to disp5_5
 set_location_assignment PIN_N20 -to disp5_6
-set_location_assignment PIN_A8 -to led0
-set_location_assignment PIN_A9 -to led1
-set_location_assignment PIN_A10 -to led2
-set_location_assignment PIN_B10 -to led3
+set_location_assignment PIN_C14 -to disp0_0
+set_location_assignment PIN_E15 -to disp0_1
+set_location_assignment PIN_C15 -to disp0_2
+set_location_assignment PIN_C16 -to disp0_3
+set_location_assignment PIN_E16 -to disp0_4
+set_location_assignment PIN_D17 -to disp0_5
+set_location_assignment PIN_C17 -to disp0_6
+set_location_assignment PIN_C18 -to disp1_0
+set_location_assignment PIN_D18 -to disp1_1
+set_location_assignment PIN_E18 -to disp1_2
+set_location_assignment PIN_B16 -to disp1_3
+set_location_assignment PIN_A17 -to disp1_4
+set_location_assignment PIN_A18 -to disp1_5
+set_location_assignment PIN_B17 -to disp1_6
+set_location_assignment PIN_A10 -to jug2
+set_location_assignment PIN_A9 -to jug1
+set_location_assignment PIN_A8 -to jug0
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
