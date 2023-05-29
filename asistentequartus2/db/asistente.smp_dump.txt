@@ -1,11 +1,4 @@
 
-State Machine - |asistente|bloque_juego:inst3|retenedor_de_primerpulso:inst8|fstate
-Name fstate.state4 fstate.state3 fstate.state2 fstate.state1 
-fstate.state1 0 0 0 0 
-fstate.state2 0 0 1 1 
-fstate.state3 0 1 0 1 
-fstate.state4 1 0 0 1 
-
 State Machine - |asistente|bloque_juego:inst3|retenedor_de_primerpulso:inst5|fstate
 Name fstate.state4 fstate.state3 fstate.state2 fstate.state1 
 fstate.state1 0 0 0 0 
@@ -25,13 +18,6 @@ fstate.state1 0 0 0
 fstate.state2 0 1 1 
 fstate.state3 1 0 1 
 
-State Machine - |asistente|bloque_juego:inst3|decoderJuego:inst2|retenedor_de_primerpulso:inst12|fstate
-Name fstate.state4 fstate.state3 fstate.state2 fstate.state1 
-fstate.state1 0 0 0 0 
-fstate.state2 0 0 1 1 
-fstate.state3 0 1 0 1 
-fstate.state4 1 0 0 1 
-
 State Machine - |asistente|bloque_juego:inst3|decoderJuego:inst2|stateMachineDec:inst3|fstate
 Name fstate.inputPtos fstate.registroPtos fstate.ptosJugadores fstate.inputRonda fstate.avisoRonda fstate.ptosGanar 
 fstate.ptosGanar 0 0 0 0 0 0 
@@ -40,3 +26,10 @@ fstate.inputRonda 0 0 0 1 0 1
 fstate.ptosJugadores 0 0 1 0 0 1 
 fstate.registroPtos 0 1 0 0 0 1 
 fstate.inputPtos 1 0 0 0 0 1 
+
+State Machine - |asistente|bloque_juego:inst3|decoderJuego:inst2|retenedor_de_primerpulso:inst12|fstate
+Name fstate.state4 fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 0 
+fstate.state2 0 0 1 1 
+fstate.state3 0 1 0 1 
+fstate.state4 1 0 0 1 
