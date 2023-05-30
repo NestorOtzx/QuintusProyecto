@@ -40,3 +40,22 @@ Localizar la información del proyecto en un repositorio creado en gitHub.
 | Última reunión | 22/05/2023 | 22/05/2023 |
  >_Durante la última reunión, además de cerrar la documentación con las conclusiones y opiniones de cada integrante; se determinará el posible horario que escogerá el grupo para realizar la sustentación. Y como se dividirá entre los mismos la información correspondiente._
 ___
+
+### Algunas consideraciones 
+Este apartado lo mantendremos en el repositorio con el fin de aclarar ciertas cosas de la
+sustentación.
+
+![img.png](img.png)
+La anterior es la máquina de estados correspondiente al juego por rondas.
+Consta de 6 estados en los que hay una salida de dos bits que indicará al decoder qué debe hacer
+y se imprime una palabra dependiendo del estado en el que se encuentre.
+
+![img_1.png](img_1.png)
+Esta máquina por su parte es la máquina de estados correspondiente al juego por puntaje.
+Como podemos ver, de hecho son máquinas bastante similares, y ambas se pueden casi confundir con la misma.
+Sin embargo (y de hecho en la carpeta del proyecto llamada asistentequartus2), podemos evidenciar que aunque
+las salidas para los decoder de las máquinas son las mismas, y todo depende de los dos decoder diferentes que utilizamos,
+las salidas para las palabras son distintas, esto porque se muestra en el circuito diferentes palabras y procesos.
+
+
+Ambas máquinas de estado al igual que todos los archivos se encuentran en las carpetas del proyecto.
