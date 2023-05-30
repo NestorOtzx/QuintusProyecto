@@ -1,9 +1,12 @@
 # QuintusProyecto
 ### **Integrantes**
-- Nestor Mauricio Ortiz Montenegro
-- Phanor Castillo
-- Jhon David Ríos Aguirre
-- Laura Camila Franco Valencia
+|             Integrantes             |        Rol en el proyecto       |
+|-------------------------------------|---------------------------------|
+| Nestor Mauricio Ortiz Montenegro  | Investigación y diseño |
+| Phanor Castillo | Pruebas e integración |
+| Jhon David Ríos Aguirre | Diseño |
+| Laura Camila Franco Valencia | Desarrollo y documentación|
+
 ___
 
 ### **Metodología de trabajo**
